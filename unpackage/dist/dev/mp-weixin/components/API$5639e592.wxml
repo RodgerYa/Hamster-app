@@ -1,0 +1,13 @@
+<import src="page-head$0c6dc746" />
+<template name="API$5639e592">
+  <view class="_view data-v-517a9d06">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$0c6dc746"></template>
+    <view class="_view data-v-517a9d06 page-body">
+      <view class="_view data-v-517a9d06 btn-area">
+        <button bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-517a9d06">跳转新页面</button>
+        <button bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}" class="_button data-v-517a9d06">返回上一页</button>
+        <button bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}" class="_button data-v-517a9d06">在当前页面打开</button>
+      </view>
+    </view>
+  </view>
+</template>

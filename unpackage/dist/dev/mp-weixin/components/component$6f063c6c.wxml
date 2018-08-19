@@ -1,0 +1,48 @@
+<import src="page-head$0c6dc746" />
+<template name="component$6f063c6c">
+  <view class="_view data-v-023ab119">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$0c6dc746"></template>
+    <view class="_view data-v-023ab119 page-body">
+      <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_form data-v-023ab119">
+        <view class="_view data-v-023ab119 page-section page-section-gap">
+          <view class="_view data-v-023ab119 page-section-title">switch</view>
+          <switch name="switch" class="_switch data-v-023ab119" />
+        </view>
+        <view class="_view data-v-023ab119 page-section page-section-gap">
+          <view class="_view data-v-023ab119 page-section-title">radio</view>
+          <radio-group class="_radio-group data-v-023ab119 uni-flex" name="radio">
+            <label class="_label data-v-023ab119">
+              <radio value="radio1" class="_radio data-v-023ab119" />选项一</label>
+            <label class="_label data-v-023ab119">
+              <radio value="radio2" class="_radio data-v-023ab119" />选项二</label>
+          </radio-group>
+        </view>
+        <view class="_view data-v-023ab119 page-section page-section-gap">
+          <view class="_view data-v-023ab119 page-section-title">checkbox</view>
+          <checkbox-group class="_checkbox-group data-v-023ab119 uni-flex" name="checkbox">
+            <label class="_label data-v-023ab119">
+              <checkbox value="checkbox1" class="_checkbox data-v-023ab119"></checkbox>选项一</label>
+            <label class="_label data-v-023ab119">
+              <checkbox value="checkbox2" class="_checkbox data-v-023ab119"></checkbox>选项二</label>
+          </checkbox-group>
+        </view>
+        <view class="_view data-v-023ab119 page-section page-section-gap">
+          <view class="_view data-v-023ab119 page-section-title">slider</view>
+          <slider value="50" name="slider" show-value class="_slider data-v-023ab119" />
+        </view>
+        <view class="_view data-v-023ab119 page-section">
+          <view class="_view data-v-023ab119 page-section-title">input</view>
+          <view class="_view data-v-023ab119 uni-list">
+            <view class="_view data-v-023ab119 uni-list-cell">
+              <input class="_input data-v-023ab119 uni-input" name="input" placeholder="这是一个输入框" />
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-023ab119 btn-area">
+          <button class="_button data-v-023ab119 btn-submit" formType="submit">Submit</button>
+          <button type="default" formType="reset" class="_button data-v-023ab119">Reset</button>
+        </view>
+      </form>
+    </view>
+  </view>
+</template>

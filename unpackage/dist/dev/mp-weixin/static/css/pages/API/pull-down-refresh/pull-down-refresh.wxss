@@ -1,0 +1,21 @@
+@import "/static/css/vendor.wxss";
+
+.page-body-info {
+  background-color: transparent;
+}
+.page-body-content {
+  padding: 0 30rpx;
+}
+.text {
+  margin: 16rpx 0;
+  width: 690rpx;
+  background-color: #fff;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  color: #555;
+  border-radius: 8rpx;
+}
+.loadMore {
+  text-align: center;
+}

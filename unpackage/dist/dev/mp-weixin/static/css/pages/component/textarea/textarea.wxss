@@ -1,0 +1,16 @@
+@import "/static/css/vendor.wxss";
+
+._textarea {
+  width: 700rpx;
+  padding: 25rpx 0;
+  height: 34rpx;
+  line-height: 34rpx;
+  font-size: 32rpx;
+}
+.textare {
+  height: 102rpx;
+}
+.textarea-wrp {
+  padding: 0 25rpx;
+  background-color: #fff;
+}

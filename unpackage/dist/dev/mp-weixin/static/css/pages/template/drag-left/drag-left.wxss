@@ -1,0 +1,38 @@
+@import "/static/css/vendor.wxss";
+
+.page-bottom {
+  height: 100%;
+  width: 750rpx;
+  position: fixed;
+  background-color: rgb(0, 68, 97);
+  z-index: 0;
+}
+.wc {
+  color: white;
+  padding: 30rpx 0 30rpx 40rpx;
+  text-align: right;
+}
+.page-content {
+  padding-top: 300rpx;
+  padding-right: 30rpx;
+}
+.page-top {
+  height: 100%;
+  position: fixed;
+  width: 750rpx;
+  background-color: rgb(57, 125, 230);
+  z-index: 0;
+  transition: All 0.4s ease;
+  -webkit-transition: All 0.4s ease;
+}
+.page-top image {
+  position: absolute;
+  width: 68rpx;
+  height: 68rpx;
+  right: 20rpx;
+  top: 20rpx;
+}
+.c-state1 {
+  transform: rotate(0deg) scale(1) translate(-75%, 0%);
+  -webkit-transform: rotate(0deg) scale(1) translate(-75%, 0%);
+}

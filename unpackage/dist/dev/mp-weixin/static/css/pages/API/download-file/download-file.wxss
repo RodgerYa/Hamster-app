@@ -1,0 +1,7 @@
+@import "/static/css/vendor.wxss";
+
+.page-body image {
+  width: 600rpx;
+  height: 600rpx;
+  margin: 0 75rpx;
+}

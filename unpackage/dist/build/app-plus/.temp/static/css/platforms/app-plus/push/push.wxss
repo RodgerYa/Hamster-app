@@ -1,0 +1,2 @@
+@import "/static/css/vendor.wxss";
+.textare-view{padding:0 30rpx}._textarea,.textare-view{box-sizing:border-box;width:100%}._textarea{background-color:#fff;height:200rpx;padding:10rpx}

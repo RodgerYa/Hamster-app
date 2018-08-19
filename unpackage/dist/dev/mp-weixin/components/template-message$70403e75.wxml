@@ -1,0 +1,46 @@
+<import src="page-head$0c6dc746" />
+<template name="template-message$70403e75">
+  <view class="_view data-v-35e91144">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$0c6dc746"></template>
+    <form class="_form data-v-35e91144 page-body" bindsubmit="handleProxy" report-submit="true" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-35e91144 page-section-title">点击提交，发送示例模板消息</view>
+      <view class="_view data-v-35e91144 uni-list">
+        <view class="_view data-v-35e91144 uni-list-cell">
+          <view class="_view data-v-35e91144 uni-list-cell-left">
+            <view class="_view data-v-35e91144 uni-label">购买地点</view>
+          </view>
+          <view class="_view data-v-35e91144 uni-list-cell-db">
+            <input class="_input data-v-35e91144 uni-input" type="text" disabled="{{true}}" value="{{formData.address}}" name="address" />
+          </view>
+        </view>
+        <view class="_view data-v-35e91144 uni-list-cell">
+          <view class="_view data-v-35e91144 uni-list-cell-left">
+            <view class="_view data-v-35e91144 uni-label">购买时间</view>
+          </view>
+          <view class="_view data-v-35e91144 uni-list-cell-db">
+            <input class="_input data-v-35e91144 uni-input" type="text" disabled="{{true}}" value="{{formData.time}}" name="time" />
+          </view>
+        </view>
+        <view class="_view data-v-35e91144 uni-list-cell">
+          <view class="_view data-v-35e91144 uni-list-cell-left">
+            <view class="_view data-v-35e91144 uni-label">物品名称</view>
+          </view>
+          <view class="_view data-v-35e91144 uni-list-cell-db">
+            <input class="_input data-v-35e91144 uni-input" type="text" disabled="{{true}}" value="{{formData.name}}" name="name" />
+          </view>
+        </view>
+        <view class="_view data-v-35e91144 uni-list-cell">
+          <view class="_view data-v-35e91144 uni-list-cell-left">
+            <view class="_view data-v-35e91144 uni-label">交易单号</view>
+          </view>
+          <view class="_view data-v-35e91144 uni-list-cell-db">
+            <input class="_input data-v-35e91144 uni-input" type="text" disabled="{{true}}" value="{{formData.serial}}" name="serial" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-35e91144 btn-area">
+        <button size="40" formType="submit" loading="{{loading}}" class="_button data-v-35e91144">点我提交</button>
+      </view>
+    </form>
+  </view>
+</template>

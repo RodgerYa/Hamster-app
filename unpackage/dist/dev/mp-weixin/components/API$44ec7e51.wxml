@@ -1,0 +1,24 @@
+<import src="page-head$0c6dc746" />
+<template name="API$44ec7e51">
+  <view class="_view data-v-7cf7e3c0">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$0c6dc746"></template>
+    <view class="_view data-v-7cf7e3c0 page-body">
+      <view class="_view data-v-7cf7e3c0 page-section">
+        <view class="_view data-v-7cf7e3c0 animation-element-wrapper">
+          <view class="_view data-v-7cf7e3c0 animation-element" animation="{{animationData}}"></view>
+        </view>
+        <scroll-view class="_scroll-view data-v-7cf7e3c0 animation-buttons" scroll-y="true">
+          <button class="_button data-v-7cf7e3c0 animation-button" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">旋转</button>
+          <button class="_button data-v-7cf7e3c0 animation-button" bindtap="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">缩放</button>
+          <button class="_button data-v-7cf7e3c0 animation-button" bindtap="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">移动</button>
+          <button class="_button data-v-7cf7e3c0 animation-button" bindtap="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}">倾斜</button>
+          <button class="_button data-v-7cf7e3c0 animation-button" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}">旋转并缩放</button>
+          <button class="_button data-v-7cf7e3c0 animation-button" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}">旋转后缩放</button>
+          <button class="_button data-v-7cf7e3c0 animation-button" bindtap="handleProxy" data-eventid="{{'6'}}" data-comkey="{{$k}}">同时展示全部</button>
+          <button class="_button data-v-7cf7e3c0 animation-button" bindtap="handleProxy" data-eventid="{{'7'}}" data-comkey="{{$k}}">顺序展示全部</button>
+          <button class="_button data-v-7cf7e3c0 animation-button animation-button-reset" bindtap="handleProxy" data-eventid="{{'8'}}" data-comkey="{{$k}}">还原</button>
+        </scroll-view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,24 @@
+<template name="bill$3887477c">
+  <view class="_view data-v-47f21d8b index">
+    <view class="_view data-v-47f21d8b index-hd">
+      <image class="_image data-v-47f21d8b index-logo" src="../../static/hm.png"></image>
+    </view>
+    <view class="_view data-v-47f21d8b uni-flex uni-row" style="justify-content: center;">
+      <view class="_view data-v-47f21d8b uni-flex uni-column" style="justify-content: center;margin-right: 20rpx">
+        <view class="_view data-v-47f21d8b text bill-total-content"> {{income}} </view>
+        <view class="_view data-v-47f21d8b text bill-total-head"> {{month}}月收入 </view>
+      </view>
+      <view class="_view data-v-47f21d8b uni-flex uni-column" style="justify-content: center; margin-left: 20rpx">
+        <view class="_view data-v-47f21d8b text bill-total-content"> {{cost}} </view>
+        <view class="_view data-v-47f21d8b text bill-total-head"> {{month}}月支出 </view>
+      </view>
+    </view>
+    <view class="_view data-v-47f21d8b bill-item-contanair">
+      <view class="_view data-v-47f21d8b uni-flex uni-row" style="justify-content: center;box-sizing: border-box; border-radius: 10rpx; border-bottom: wheat solid 2rpx" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}"
+        wx:for="{{billItems}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-47f21d8b text-inline">{{item.accountName}}</view>
+        <view class="_view data-v-47f21d8b text-inline" style="text-align: right; margin: 8rpx">{{item.income ? '+' + item.amount : '-' + item.amount}} </view>
+      </view>
+    </view>
+  </view>
+</template>

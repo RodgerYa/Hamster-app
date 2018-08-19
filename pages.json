@@ -1,0 +1,47 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		{
+			"path": "pages/bill/bill",
+			"style": {
+				"navigationBarTitleText": "账单"
+			}
+		}, {
+			"path": "pages/account/account",
+			"style": {
+				"navigationBarTitleText": "账户"
+			}
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "测试",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#007AFF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/bill/bill",
+			"iconPath": "static/play.png",
+			"selectedIconPath": "static/play.png",
+			"text": "账单"
+		},{
+			"pagePath": "pages/account/account",
+			"iconPath": "static/stop.png",
+			"selectedIconPath": "static/stop.png",
+			"text": "账户"
+		}, {
+			"pagePath": "pages/user/user",
+			"iconPath": "static/api.png",
+			"selectedIconPath": "static/apiHL.png",
+			"text": "我的"
+		}]
+	}
+}

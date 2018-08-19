@@ -1,0 +1,2 @@
+@import "/static/css/vendor.wxss";
+._textarea{border:2rpx solid #7a7e83;height:76rpx;width:100%}

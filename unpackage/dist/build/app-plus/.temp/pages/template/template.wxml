@@ -1,0 +1,1 @@
+<import src="../../components/template$feeb0048" /><template is="template$feeb0048" data="{{ ...$root['0'], $root }}"/>

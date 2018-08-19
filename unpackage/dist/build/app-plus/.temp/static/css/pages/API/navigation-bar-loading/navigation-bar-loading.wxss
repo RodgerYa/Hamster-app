@@ -1,0 +1,2 @@
+@import "/static/css/vendor.wxss";
+.btn-load{background-color:#007aff;color:#fff}

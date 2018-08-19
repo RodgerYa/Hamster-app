@@ -1,0 +1,28 @@
+<import src="page-head$0c6dc746" />
+<template name="component$73fb402a">
+  <view class="_view data-v-90cf5f0e">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$0c6dc746"></template>
+    <view class="_view data-v-90cf5f0e page-body">
+      <view class="_view data-v-90cf5f0e page-section page-section-gap">
+        <view class="_view data-v-90cf5f0e page-section-title">默认样式</view>
+        <label class="_label data-v-90cf5f0e checkbox">
+          <checkbox value="cb" checked="true" class="_checkbox data-v-90cf5f0e"></checkbox>选中 </label>
+        <label class="_label data-v-90cf5f0e checkbox">
+          <checkbox value="cb" class="_checkbox data-v-90cf5f0e"></checkbox>未选中 </label>
+      </view>
+      <view class="_view data-v-90cf5f0e page-section">
+        <view class="_view data-v-90cf5f0e page-section-title">推荐展示样式</view>
+        <view class="_view data-v-90cf5f0e uni-list">
+          <checkbox-group bindchange="checkboxChange" class="_checkbox-group data-v-90cf5f0e">
+            <label class="_label data-v-90cf5f0e uni-list-cell uni-list-cell-pd" wx:key="item.value" key="{{item.value}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+              <view class="_view data-v-90cf5f0e">
+                <checkbox value="{{item.value}}" checked="{{item.checked}}" class="_checkbox data-v-90cf5f0e"></checkbox>
+              </view>
+              <view class="_view data-v-90cf5f0e">{{item.name}}</view>
+            </label>
+          </checkbox-group>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

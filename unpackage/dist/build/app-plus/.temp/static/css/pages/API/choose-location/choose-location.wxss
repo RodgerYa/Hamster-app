@@ -1,0 +1,2 @@
+@import "/static/css/vendor.wxss";
+.page-body-info{padding-bottom:0;height:440rpx}

@@ -1,0 +1,17 @@
+<import src="page-head$0c6dc746" />
+<template name="API$e4142f6a">
+  <view class="_view data-v-be378dcc">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$0c6dc746"></template>
+    <view class="_view data-v-be378dcc page-body">
+      <image wx:if="{{imageSrc}}" src="{{imageSrc}}" mode="center" class="_image data-v-be378dcc"></image>
+      <block wx:else>
+        <view class="_view data-v-be378dcc page-body-wording">
+          <text class="_text data-v-be378dcc page-body-text"> 点击按钮下载服务端示例图片 </text>
+        </view>
+        <view class="_view data-v-be378dcc btn-area">
+          <button type="primary" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-be378dcc">下载</button>
+        </view>
+      </block>
+    </view>
+  </view>
+</template>

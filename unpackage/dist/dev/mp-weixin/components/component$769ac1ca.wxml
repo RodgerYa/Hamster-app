@@ -1,0 +1,26 @@
+<import src="page-head$0c6dc746" />
+<template name="component$769ac1ca">
+  <view class="_view data-v-199b5cce">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$0c6dc746"></template>
+    <view class="_view data-v-199b5cce page-body">
+      <view class="_view data-v-199b5cce btn-area" id="buttonContainer">
+        <button type="primary" class="_button data-v-199b5cce">页面主操作 Normal</button>
+        <button type="primary" loading="true" class="_button data-v-199b5cce">页面主操作 Loading</button>
+        <button type="primary" disabled="true" class="_button data-v-199b5cce">页面主操作 Disabled</button>
+        <button type="default" class="_button data-v-199b5cce">页面次要操作 Normal</button>
+        <button type="default" disabled="true" class="_button data-v-199b5cce">页面次要操作 Disabled</button>
+        <button type="warn" class="_button data-v-199b5cce">警告类操作 Normal</button>
+        <button type="warn" disabled="true" class="_button data-v-199b5cce">警告类操作 Disabled</button>
+        <view class="_view data-v-199b5cce button-sp-area">
+          <button type="primary" plain="true" class="_button data-v-199b5cce">按钮</button>
+          <button type="primary" disabled="true" plain="true" class="_button data-v-199b5cce">不可点击的按钮</button>
+          <button type="default" plain="true" class="_button data-v-199b5cce">按钮</button>
+          <button type="default" disabled="true" plain="true" class="_button data-v-199b5cce">按钮</button>
+          <button class="_button data-v-199b5cce mini-btn" type="primary" size="mini">按钮</button>
+          <button class="_button data-v-199b5cce mini-btn" type="default" size="mini">按钮</button>
+          <button class="_button data-v-199b5cce mini-btn" type="warn" size="mini">按钮</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

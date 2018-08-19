@@ -1,0 +1,98 @@
+<import src="page-head$0c6dc746" />
+<template name="component$653947c0">
+  <view class="_view data-v-e22ad8a2">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$0c6dc746"></template>
+    <view class="_view data-v-e22ad8a2 page-body">
+      <view class="_view data-v-e22ad8a2 page-section">
+        <view class="_view data-v-e22ad8a2 page-section-title">控制最大输入长度的input</view>
+        <view class="_view data-v-e22ad8a2 uni-list">
+          <view class="_view data-v-e22ad8a2 uni-list-cell">
+            <input class="_input data-v-e22ad8a2 uni-input" maxlength="10" placeholder="最大输入长度为10" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-e22ad8a2 page-section">
+        <view class="_view data-v-e22ad8a2 page-section-title">实时获取输入值：{{inputValue}}</view>
+        <view class="_view data-v-e22ad8a2 uni-list">
+          <view class="_view data-v-e22ad8a2 uni-list-cell">
+            <input class="_input data-v-e22ad8a2 uni-input" maxlength="10" bindinput="handleProxy" placeholder="输入同步到view中" data-eventid="{{'0'}}" data-comkey="{{$k}}" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-e22ad8a2 page-section">
+        <view class="_view data-v-e22ad8a2 page-section-title">控制输入的input</view>
+        <view class="_view data-v-e22ad8a2 uni-list">
+          <view class="_view data-v-e22ad8a2 uni-list-cell">
+            <input class="_input data-v-e22ad8a2 uni-input" bindinput="handleProxy" value="{{changeValue}}" placeholder="连续的两个1会变成2" data-eventid="{{'1'}}" data-comkey="{{$k}}" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-e22ad8a2 page-section">
+        <view class="_view data-v-e22ad8a2 page-section-title">控制键盘的input</view>
+        <view class="_view data-v-e22ad8a2 uni-list">
+          <view class="_view data-v-e22ad8a2 uni-list-cell">
+            <input class="_input data-v-e22ad8a2 uni-input" ref="input1" bindinput="handleProxy" placeholder="输入123自动收起键盘" data-eventid="{{'2'}}" data-comkey="{{$k}}" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-e22ad8a2 page-section">
+        <view class="_view data-v-e22ad8a2 page-section-title">数字输入的input</view>
+        <view class="_view data-v-e22ad8a2 uni-list">
+          <view class="_view data-v-e22ad8a2 uni-list-cell">
+            <input class="_input data-v-e22ad8a2 uni-input" type="number" placeholder="这是一个数字输入框" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-e22ad8a2 page-section">
+        <view class="_view data-v-e22ad8a2 page-section-title">密码输入的input</view>
+        <view class="_view data-v-e22ad8a2 uni-list">
+          <view class="_view data-v-e22ad8a2 uni-list-cell">
+            <input class="_input data-v-e22ad8a2 uni-input" password type="text" placeholder="这是一个密码输入框" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-e22ad8a2 page-section">
+        <view class="_view data-v-e22ad8a2 page-section-title">带小数点的input</view>
+        <view class="_view data-v-e22ad8a2 uni-list">
+          <view class="_view data-v-e22ad8a2 uni-list-cell">
+            <input class="_input data-v-e22ad8a2 uni-input" type="digit" placeholder="带小数点的数字键盘" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-e22ad8a2 page-section">
+        <view class="_view data-v-e22ad8a2 page-section-title">身份证输入的input</view>
+        <view class="_view data-v-e22ad8a2 uni-list">
+          <view class="_view data-v-e22ad8a2 uni-list-cell">
+            <input class="_input data-v-e22ad8a2 uni-input" type="idcard" placeholder="身份证输入键盘" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-e22ad8a2 page-section">
+        <view class="_view data-v-e22ad8a2 page-section-title">控制占位符颜色的input</view>
+        <view class="_view data-v-e22ad8a2 uni-list">
+          <view class="_view data-v-e22ad8a2 uni-list-cell">
+            <input class="_input data-v-e22ad8a2 uni-input" placeholder-style="color:#F76260" placeholder="占位符字体是红色的" />
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-e22ad8a2 page-section">
+        <view class="_view data-v-e22ad8a2 page-section-title">带清除按钮的输入框</view>
+        <view class="_view data-v-e22ad8a2 uni-list">
+          <view class="_view data-v-e22ad8a2 uni-list-cell">
+            <input class="_input data-v-e22ad8a2 uni-input" placeholder="带清除按钮的输入框" value="{{inputClearValue}}" bindinput="handleProxy" data-eventid="{{'3'}}" data-comkey="{{$k}}" />
+            <view class="_view data-v-e22ad8a2 uni-icon uni-icon-clear" wx:if="{{showClearIcon}}" bindtap="handleProxy" data-eventid="{{'4'}}" data-comkey="{{$k}}"></view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-e22ad8a2 page-section">
+        <view class="_view data-v-e22ad8a2 page-section-title">可查看密码的输入框</view>
+        <view class="_view data-v-e22ad8a2 uni-list">
+          <view class="_view data-v-e22ad8a2 uni-list-cell">
+            <input class="_input data-v-e22ad8a2 uni-input" placeholder="请输入密码" password="{{showPassword}}" />
+            <view class="_view data-v-e22ad8a2 uni-icon uni-icon-eye {{[!showPassword ? 'uni-active' : '']}}" bindtap="handleProxy" data-eventid="{{'5'}}" data-comkey="{{$k}}"></view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

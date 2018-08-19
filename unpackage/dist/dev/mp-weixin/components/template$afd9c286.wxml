@@ -1,0 +1,20 @@
+<template name="template$afd9c286">
+  <view class="_view data-v-1772d90e index">
+    <scroll-view id="tab-bar" class="_scroll-view data-v-1772d90e swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
+      <block wx:key="tab.id" key="{{tab.id}}" wx:for="{{tabs}}" wx:for-index="index" wx:for-item="tab">
+        <view id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'0-'+index}}" data-comkey="{{$k}}" class="_view data-v-1772d90e {{['swiper-tab-list', currentTab == index ? 'on' : '']}}">{{tab.name}}</view>
+      </block>
+    </scroll-view>
+    <swiper current="{{currentTab}}" class="_swiper data-v-1772d90e swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'2'}}" data-comkey="{{$k}}">
+      <block wx:key="index1" key="{{index1}}" wx:for="{{newsitems}}" wx:for-index="index1" wx:for-item="tab">
+        <swiper-item class="_swiper-item data-v-1772d90e">
+          <scroll-view class="_scroll-view data-v-1772d90e index-bd" scroll-y bindscrolltolower="handleProxy" data-eventid="{{'1-'+index1}}" data-comkey="{{$k}}">
+            <block wx:key="index2" key="{{index2}}" wx:for="{{tab}}" wx:for-index="index2" wx:for-item="newsitem">
+              <view class="_view data-v-1772d90e tab-list">{{newsitem.name}}-{{newsitem.label}}</view>
+            </block>
+          </scroll-view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</template>

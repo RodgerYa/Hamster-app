@@ -1,0 +1,38 @@
+<import src="page-head$0c6dc746" />
+<template name="component$a95ece18">
+  <view class="_view data-v-6cd7d083">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$0c6dc746"></template>
+    <view class="_view data-v-6cd7d083 page-body">
+      <view class="_view data-v-6cd7d083 page-section page-section-gap">
+        <view class="_view data-v-6cd7d083 page-section-title">表单组件在label内</view>
+        <checkbox-group class="_checkbox-group data-v-6cd7d083 group" bindchange="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-6cd7d083 label-1" wx:key="item.name" key="{{item.name}}" wx:for="{{checkboxItems}}" wx:for-index="index" wx:for-item="item">
+            <label class="_label data-v-6cd7d083">
+              <checkbox value="{{item.name}}" checked="{{item.checked}}" class="_checkbox data-v-6cd7d083"></checkbox>
+              <text class="_text data-v-6cd7d083 label-1-text">{{item.value}}</text>
+            </label>
+          </view>
+        </checkbox-group>
+      </view>
+      <view class="_view data-v-6cd7d083 page-section page-section-gap">
+        <view class="_view data-v-6cd7d083 page-section-title">label用for标识表单组件</view>
+        <radio-group class="_radio-group data-v-6cd7d083 group" bindchange="handleProxy" data-eventid="{{'1'}}" data-comkey="{{$k}}">
+          <view class="_view data-v-6cd7d083 label-2" wx:key="index" key="{{index}}" wx:for="{{radioItems}}" wx:for-index="index" wx:for-item="item">
+            <radio id="{{item.name}}" value="{{item.name}}" checked="{{item.checked}}" class="_radio data-v-6cd7d083" />
+            <label class="_label data-v-6cd7d083 label-2-text" for="{{item.name}}">
+              <text class="_text data-v-6cd7d083">{{item.name}}</text>
+            </label>
+          </view>
+        </radio-group>
+      </view>
+      <view class="_view data-v-6cd7d083 page-section page-section-gap">
+        <view class="_view data-v-6cd7d083 page-section-title">label内有多个时选中第一个</view>
+        <label class="_label data-v-6cd7d083 label-3">
+          <checkbox class="_checkbox data-v-6cd7d083 checkbox-3">选项一</checkbox>
+          <checkbox class="_checkbox data-v-6cd7d083 checkbox-3">选项二</checkbox>
+          <view class="_view data-v-6cd7d083 label-3-text">点击该label下的文字默认选中第一个checkbox</view>
+        </label>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,2 @@
+@import "/static/css/vendor.wxss";
+.page-section-ctn{text-align:center}.image{margin-top:30rpx;width:200rpx;height:200rpx}

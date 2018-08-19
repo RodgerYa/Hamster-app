@@ -1,0 +1,24 @@
+<import src="page-head$0c6dc746" />
+<template name="component$4c31abc2">
+  <view class="_view data-v-0db8e351">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$0c6dc746"></template>
+    <view class="_view data-v-0db8e351 page-body">
+      <view class="_view data-v-0db8e351 page-section">
+        <video id="myVideo" src="https://www.dcloud.io/uniapp/wap2appvsnative.mp4" binderror="handleProxy" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_video data-v-0db8e351"></video>
+        <view class="_view data-v-0db8e351 uni-list">
+          <view class="_view data-v-0db8e351 uni-list-cell">
+            <view class="_view data-v-0db8e351">
+              <view class="_view data-v-0db8e351 uni-label">弹幕内容</view>
+            </view>
+            <view class="_view data-v-0db8e351 uni-list-cell-db">
+              <input bindblur="handleProxy" class="_input data-v-0db8e351 uni-input" type="text" placeholder="在此处输入弹幕内容" data-eventid="{{'1'}}" data-comkey="{{$k}}" />
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-0db8e351 btn-area">
+          <button bindtap="handleProxy" class="_button data-v-0db8e351 page-body-button" data-eventid="{{'2'}}" data-comkey="{{$k}}">发送弹幕</button>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

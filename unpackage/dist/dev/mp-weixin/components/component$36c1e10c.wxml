@@ -1,0 +1,16 @@
+<import src="page-head$0c6dc746" />
+<template name="component$36c1e10c">
+  <view class="_view data-v-958d6fee">
+    <template data="{{...$root[$kk+'0'], $root}}" is="page-head$0c6dc746"></template>
+    <view class="_view data-v-958d6fee page-body">
+      <view class="_view data-v-958d6fee btn-area">
+        <navigator url="navigate/navigate?title=navigate" hover-class="navigator-hover" class="_navigator data-v-958d6fee">
+          <button type="default" class="_button data-v-958d6fee">跳转到新页面</button>
+        </navigator>
+        <navigator url="redirect/redirect?title=redirect" redirect hover-class="other-navigator-hover" class="_navigator data-v-958d6fee">
+          <button type="default" class="_button data-v-958d6fee">在当前页打开</button>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</template>
