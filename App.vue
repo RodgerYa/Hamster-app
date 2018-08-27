@@ -34,19 +34,30 @@
 			//#endif
 		},
 		onShow: function () {
-			console.log('App Show')
+			console.log('App Show');
+            // uni.connectSocket({
+            //     url: 'ws://localhost:10002/notify?id=123&password=000000'
+            // });
+            //
+            // uni.onSocketMessage(function (res) {
+            //     console.log('收到服务器内容：' + res.data);
+            // });
 		},
 		onHide: function () {
 			console.log('App Hide')
-		}
+		},
+        onError: function (err) {
+            console.log("捕获全局异常：", err);
+        }
 	}
 </script>
 
 <style>
-	/* 这是页面的公用css */
+	/* 公用css */
 
 	page {
-		background-color: #F8F8F8;
+		background-color: #fff;
+        /*background-image: url(./static/hm.png);*/
 		height: 100%;
 		font-size: 32px;
 		line-height: 1.6;
@@ -197,8 +208,10 @@
 	/* example */
 
 	.index-hd {
-		padding: 90px;
 		text-align: center;
+        background-color: #afc0ca;
+        /*background-image: url("");*/
+        padding: 100px;
 	}
 
 	.index-logo {
@@ -270,7 +283,7 @@
     .bill-total-head {
         padding: 0 40px;
         font-size: 30px;
-        color: #BEBEBE;
+        color: #FFFFFF;
         box-sizing: border-box;
         border-top: 2px solid #D8D8D8;
         text-align: center;
@@ -278,7 +291,7 @@
     .bill-total-content {
         padding: 20px 0;
         font-size: 50px;
-        color: #1a1a1a;
+        color: #FFFFFF;
         text-align: center;
     }
     .bill-total {

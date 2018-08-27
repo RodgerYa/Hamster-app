@@ -1,36 +1,39 @@
 <template>
-    <view class="index">
-        <view class="index-hd">
-            <image class="index-logo" src="../../static/hm.png"></image>
-        </view>
-
-        <view class="uni-flex uni-row" style="justify-content: center;">
-
-            <view class="uni-flex uni-column" style="justify-content: center;margin-right: 20px">
-                <view class="text bill-total-content">
-                    {{income}}
+    <view class="index" style="background: #fff">
+        <!--<view class="index-hd">-->
+            <!---->
+            <!--&lt;!&ndash;<image class="index-logo" src="../../static/hm.png"></image>&ndash;&gt;-->
+        <!--</view>-->
+        <view class="uni-flex uni-row">
+            <view class="uni-flex uni-column" style="justify-content: center">
+                <view class="text bill-total-content" style="justify-content: center">
+                    {{asserts}}
                 </view>
                 <view class="text bill-total-head">
-                    {{month}}月收入
+                    资产
                 </view>
             </view>
-            <view class="uni-flex uni-column" style="justify-content: center; margin-left: 20px">
+            <view class="uni-flex uni-column" style="justify-content: center">
                 <view class="text bill-total-content">
-                    {{cost}}
+                    {{liability}}
                 </view>
                 <view class="text bill-total-head">
-                    {{month}}月支出
+                    负债
                 </view>
             </view>
         </view>
+        <view class="text">
+            {{notification}}
+        </view>
+
+
 
         <view class="bill-item-contanair">
             <view class="uni-flex uni-row"
-                  style="justify-content: center;box-sizing: border-box; border-radius: 10px; border-bottom: wheat solid 2px"
                   v-for="(item, index) in billItems" :key="index" @click="jumpToDetail(item.id)">
                 <!--<view class="uni-icon"></view>-->
-                <view class="text-inline">{{item.accountName}}</view>
-                <view class="text-inline" style="text-align: right; margin: 8px">{{item.income ? '+'
+                <view class="text-inline bill-account-name">{{item.accountName}}</view>
+                <view class="text-inline bill-amount">{{item.income ? '+'
                     + item.amount : '-' + item.amount}}
                 </view>
             </view>
@@ -41,14 +44,16 @@
     export default {
         data() {
             return {
-                month: 1,
-                income: 0,
+                asserts: 1,
+                liability: 0,
+
                 cost: 0,
+                notification: '',
                 billItems: [{
                     id: 1,
                     userName: '我',
                     accountType: '支付宝',
-                    accountName: '支付宝_',
+                    accountName: '支付宝',
                     amount: 10.00,
                     income: false,
                     time: '2018-08-17'
@@ -167,5 +172,12 @@
 
     .uni-list:before {
         height: 0;
+    }
+    .bill-amount {
+        text-align: right;
+        margin: 8px;
+    }
+    .bill-account-name {
+        text-align: left;
     }
 </style>

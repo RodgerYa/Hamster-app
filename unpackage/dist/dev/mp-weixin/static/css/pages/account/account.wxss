@@ -615,3 +615,10 @@
 .uni-list:before {
   height: 0;
 }
+.bill-amount {
+  text-align: right;
+  margin: 8rpx;
+}
+.bill-account-name {
+  text-align: left;
+}

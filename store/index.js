@@ -1,13 +1,14 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 const store = new Vuex.Store({
 	state: {
 		hasLogin: false,
 		loginProvider: "",
-		openid: null
+		openid: null,
+		token: ''
 	},
 	mutations: {
 		login(state, provider) {
@@ -24,6 +25,7 @@ const store = new Vuex.Store({
 	},
 	actions: {
 		// lazy loading openid
+		// TODO @yanwenbo 微信里面的openid的概念
 		getUserOpenId: async function ({
 			commit,
 			state
@@ -33,9 +35,12 @@ const store = new Vuex.Store({
 					resolve(state.openid)
 				} else {
 					uni.login({
+						provider: 'hamster',
 						success: (data) => {
-							commit('login')
-							setTimeout(function () { //模拟异步请求服务器获取 openid
+							commit('login');
+							state.token = data.token;
+                            //TODO @yanwenbo 模拟异步请求服务器获取 openid 后面了解微信开发流程后再处理 openid 相关
+							setTimeout(function () {
 								const openid = '123456789'
 								console.log('uni.request mock openid[' + openid + ']');
 								commit('setOpenid', openid)

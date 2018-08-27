@@ -3,12 +3,22 @@
 		{
 			"path": "pages/bill/bill",
 			"style": {
-				"navigationBarTitleText": "账单"
+				"navigationBarTitleText": "记账"
 			}
 		}, {
 			"path": "pages/account/account",
 			"style": {
 				"navigationBarTitleText": "账户"
+			}
+		}, {
+			"path": "pages/bill/add",
+			"style": {
+				"navigationBarTitleText": "记一笔"
+			}
+		}, {
+			"path": "pages/bill/calendar",
+			"style": {
+				"navigationBarTitleText": "日历"
 			}
 		}, {
 			"path": "pages/user/user",
@@ -29,18 +39,27 @@
 		"backgroundColor": "#ffffff",
 		"list": [{
 			"pagePath": "pages/bill/bill",
-			"iconPath": "static/play.png",
-			"selectedIconPath": "static/play.png",
-			"text": "账单"
+			"iconPath": "static/write-0.png",
+			"selectedIconPath": "static/write-1.png",
+			"text": "记账"
 		},{
 			"pagePath": "pages/account/account",
-			"iconPath": "static/stop.png",
-			"selectedIconPath": "static/stop.png",
+			"iconPath": "static/account-0.png",
+			"selectedIconPath": "static/account-1.png",
 			"text": "账户"
+		},{
+			"pagePath": "pages/bill/bill",
+			"iconPath": "static/add-1.png",
+			"selectedIconPath": "static/add-1.png"
+		},{
+			"pagePath": "pages/bill/calendar",
+			"iconPath": "static/calendar-0.png",
+			"selectedIconPath": "static/calendar-1.png",
+			"text": "日历"
 		}, {
 			"pagePath": "pages/user/user",
-			"iconPath": "static/api.png",
-			"selectedIconPath": "static/apiHL.png",
+			"iconPath": "static/user-0.png",
+			"selectedIconPath": "static/user-1.png",
 			"text": "我的"
 		}]
 	}

@@ -1,7 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdaf324b-6025-4945-9dff-145a50d55518" name="Default" comment="" />
+    <list default="true" id="cdaf324b-6025-4945-9dff-145a50d55518" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/bill/add.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/bill/calendar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/account-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/account-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/add-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/add-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/buy-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/buy-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/calendar-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/calendar-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/chongzhi-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/chongzhi-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/food-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/food-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/medicine-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/medicine-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/redpacket-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/redpacket-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/traffic-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/traffic-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/trip-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/trip-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/user-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/user-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/write-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/write-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/account-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/account-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/buy-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/buy-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/chongzhi-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/chongzhi-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/food-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/food-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/medicine-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/medicine-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/redpacket-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/redpacket-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/traffic-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/traffic-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/trip-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/trip-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/user-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/user-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/write-0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/write-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/汉堡.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/account/account.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account/account.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/bill/bill.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bill/bill.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/api.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/apiHL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/apiIndex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/c1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/c2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/c3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/c4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/c5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/c6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/c7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/c8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/c9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/compass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/component.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/componentHL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/componentIndex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/location.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/menu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/pause.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/play.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/plus.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/record.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/stop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/template.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/templateHL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/templateIndex.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/trash.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/uni@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/.sourcemap/app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/.sourcemap/app.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/.sourcemap/manifest.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/.sourcemap/manifest.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/.sourcemap/pages/account/account.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/.sourcemap/pages/account/account.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/.sourcemap/pages/bill/bill.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/.sourcemap/pages/bill/bill.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/.sourcemap/pages/user/user.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/.sourcemap/pages/user/user.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/.sourcemap/vendor.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/.sourcemap/vendor.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/account$603a476a.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/account$603a476a.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/bill$50d00124.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/components/bill$50d00124.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/bill/bill.json" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/pages/bill/bill.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/css/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/css/app.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/css/pages/account/account.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/css/pages/account/account.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/css/pages/bill/bill.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/css/pages/bill/bill.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/pages/account/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/pages/account/account.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/pages/bill/bill.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/pages/bill/bill.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/pages/user/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/pages/user/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/vendor.js" beforeDir="false" afterPath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/vendor.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,11 +116,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hamster-app/store/index.js">
+        <entry file="file://$PROJECT_DIR$/store/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-196">
+            <state relative-caret-position="150">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -26,64 +130,47 @@
         </entry>
       </file>
       <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hamster-app/App.vue">
+        <entry file="file://$PROJECT_DIR$/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="287" column="23" selection-start-line="287" selection-start-column="23" selection-end-line="287" selection-end-column="23" />
+            <state relative-caret-position="204">
+              <caret line="212" column="38" selection-start-line="212" selection-start-column="38" selection-end-line="212" selection-end-column="38" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hamster-app/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hamster-app/manifest.json">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="pages.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../hamster-app/pages.json">
+        <entry file="file://$PROJECT_DIR$/pages.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+            <state relative-caret-position="548">
+              <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hamster-app/node_modules/_less@3.8.1@less/test/index.js">
+      <file leaf-file-name="add.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/bill/add.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="calendar.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/bill/calendar.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+            <state relative-caret-position="-500">
+              <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hamster-app/pages/user/user.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="account.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hamster-app/pages/account/account.vue">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="bill.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../hamster-app/unpackage/dist/dev/mp-weixin/static/js/pages/bill/bill.js">
+      <file leaf-file-name="bill.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/bill/bill.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="498" selection-start-column="498" selection-end-column="498" />
+            <state relative-caret-position="30">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+              <folding>
+                <element signature="n#style#0;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#1;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,27 +185,36 @@
       <find>uni-flex</find>
       <find>switchActive</find>
       <find>page-section-title</find>
-      <find>goDetailPage</find>
       <find>rich-text</find>
       <find>div_class</find>
       <find>tap</find>
       <find>pages</find>
       <find>account</find>
       <find>user</find>
+      <find>index-hd</find>
+      <find>index</find>
+      <find>page</find>
+      <find>globalStyle</find>
+      <find>goDetailPage</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/components/page-head.vue" />
         <option value="$PROJECT_DIR$/pages/component/view/view.vue" />
-        <option value="$PROJECT_DIR$/pages.json" />
         <option value="$PROJECT_DIR$/pages/component/component.vue" />
         <option value="$PROJECT_DIR$/pages/component/rich-text/rich-text.vue" />
+        <option value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/test/index.js" />
+        <option value="$PROJECT_DIR$/pages/account/account.vue" />
         <option value="$PROJECT_DIR$/App.vue" />
+        <option value="$PROJECT_DIR$/store/index.js" />
         <option value="$PROJECT_DIR$/pages/bill/bill.vue" />
-        <option value="$PROJECT_DIR$/../hamster-app/node_modules/_less@3.8.1@less/test/index.js" />
-        <option value="$PROJECT_DIR$/../hamster-app/pages.json" />
+        <option value="$PROJECT_DIR$/pages.json" />
+        <option value="$PROJECT_DIR$/pages.json" />
       </list>
     </option>
   </component>
@@ -129,12 +225,561 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/node_modules/_ajv@5.5.2@ajv/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_ajv@5.5.2@ajv/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_ajv@5.5.2@ajv/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_ajv@5.5.2@ajv/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_ajv@5.5.2@ajv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_asap@2.0.6@asap/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_asn1@0.2.4@asn1/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_asn1@0.2.4@asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_assert-plus@1.0.0@assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_asynckit@0.4.0@asynckit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_aws-sign2@0.7.0@aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_aws4@1.8.0@aws4/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_bcrypt-pbkdf@1.0.2@bcrypt-pbkdf/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_bcrypt-pbkdf@1.0.2@bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_caseless@0.12.0@caseless/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_clone@2.1.2@clone/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_co@4.6.0@co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_combined-stream@1.0.6@combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_combined-stream@1.0.6@combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_core-util-is@1.0.2@core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_dashdash@1.14.1@dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_dashdash@1.14.1@dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_delayed-stream@1.0.0@delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_ecc-jsbn@0.1.2@ecc-jsbn/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_ecc-jsbn@0.1.2@ecc-jsbn/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_ecc-jsbn@0.1.2@ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_errno@0.1.7@errno/node_modules/prr/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_errno@0.1.7@errno/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_extend@3.0.2@extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_extsprintf@1.3.0@extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_extsprintf@1.4.0@extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_fast-deep-equal@1.1.0@fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_fast-json-stable-stringify@2.0.0@fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_forever-agent@0.6.1@forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_form-data@2.3.2@form-data/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_form-data@2.3.2@form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_form-data@2.3.2@form-data/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_form-data@2.3.2@form-data/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_form-data@2.3.2@form-data/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_form-data@2.3.2@form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_getpass@0.1.7@getpass/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_getpass@0.1.7@getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_graceful-fs@4.1.11@graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_har-schema@2.0.0@har-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_har-validator@5.1.0@har-validator/node_modules/ajv/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_har-validator@5.1.0@har-validator/node_modules/ajv/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_har-validator@5.1.0@har-validator/node_modules/ajv/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_har-validator@5.1.0@har-validator/node_modules/ajv/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_har-validator@5.1.0@har-validator/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_har-validator@5.1.0@har-validator/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_har-validator@5.1.0@har-validator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/jsprim/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/jsprim/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/jsprim/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/jsprim/node_modules/verror/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/jsprim/node_modules/verror/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/jsprim/node_modules/verror/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/jsprim/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/asn1/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/getpass/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_http-signature@1.2.0@http-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_image-size@0.5.5@image-size/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_is-typedarray@1.0.0@is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_isstream@0.1.2@isstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_jsbn@0.1.1@jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_json-schema-traverse@0.3.1@json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_json-schema@0.2.3@json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_json-stringify-safe@5.0.1@json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_jsprim@1.4.1@jsprim/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_jsprim@1.4.1@jsprim/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_jsprim@1.4.1@jsprim/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_jsprim@1.4.1@jsprim/node_modules/verror/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_jsprim@1.4.1@jsprim/node_modules/verror/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_jsprim@1.4.1@jsprim/node_modules/verror/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_jsprim@1.4.1@jsprim/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_jsprim@1.4.1@jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/errno/node_modules/prr/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/errno/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/image-size/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/promise/node_modules/asap/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/promise/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/form-data/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/form-data/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/form-data/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/har-validator/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/har-validator/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/getpass/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/tough-cookie/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/tough-cookie/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/tunnel-agent/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/test/import-module/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_mime-db@1.35.0@mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_mime-types@2.1.19@mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_mime-types@2.1.19@mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_mime@1.6.0@mime/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_minimist@0.0.8@minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_mkdirp@0.5.1@mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_mkdirp@0.5.1@mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_oauth-sign@0.9.0@oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_performance-now@2.1.0@performance-now/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_promise@7.3.1@promise/node_modules/asap/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_promise@7.3.1@promise/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_prr@1.0.1@prr/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_psl@1.1.29@psl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_punycode@1.4.1@punycode/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_qs@6.5.2@qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/form-data/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/form-data/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/form-data/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/form-data/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/har-validator/node_modules/ajv/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/har-validator/node_modules/ajv/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/har-validator/node_modules/ajv/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/har-validator/node_modules/ajv/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/har-validator/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/har-validator/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/jsprim/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/jsprim/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/jsprim/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/getpass/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/tough-cookie/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/tough-cookie/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/tunnel-agent/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_request@2.88.0@request/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_safe-buffer@5.1.2@safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_safer-buffer@2.1.2@safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_source-map@0.6.1@source-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/asn1/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/bcrypt-pbkdf/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/ecc-jsbn/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/ecc-jsbn/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/getpass/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_sshpk@1.14.2@sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_tough-cookie@2.4.3@tough-cookie/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_tough-cookie@2.4.3@tough-cookie/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_tough-cookie@2.4.3@tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_tunnel-agent@0.6.0@tunnel-agent/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_tunnel-agent@0.6.0@tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_tweetnacl@0.14.5@tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_uuid@3.3.2@uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_verror@1.10.0@verror/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_verror@1.10.0@verror/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_verror@1.10.0@verror/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/_verror@1.10.0@verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ajv/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ajv/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ajv/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ajv/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/asap/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/asn1/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bcrypt-pbkdf/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ecc-jsbn/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ecc-jsbn/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/errno/node_modules/prr/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/errno/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/form-data/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/form-data/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/form-data/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/form-data/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/getpass/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-validator/node_modules/ajv/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-validator/node_modules/ajv/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-validator/node_modules/ajv/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-validator/node_modules/ajv/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-validator/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-validator/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/jsprim/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/jsprim/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/jsprim/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/jsprim/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/getpass/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/image-size/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsprim/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsprim/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsprim/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsprim/node_modules/verror/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsprim/node_modules/verror/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsprim/node_modules/verror/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsprim/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/clone/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/errno/node_modules/prr/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/errno/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/image-size/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/promise/node_modules/asap/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/promise/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/form-data/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/form-data/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/form-data/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/har-validator/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/har-validator/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/getpass/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/tough-cookie/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/tough-cookie/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/tunnel-agent/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/less/test/import-module/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mkdirp/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/promise/node_modules/asap/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/promise/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/prr/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/aws-sign2/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/aws4/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/caseless/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/extend/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/forever-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/form-data/node_modules/asynckit/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/form-data/node_modules/combined-stream/node_modules/delayed-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/form-data/node_modules/combined-stream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/form-data/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/form-data/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/form-data/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/har-validator/node_modules/ajv/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/har-validator/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/har-validator/node_modules/har-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/har-validator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/json-schema/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/jsprim/node_modules/verror/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/jsprim/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/getpass/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/http-signature/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/is-typedarray/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/isstream/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/json-stringify-safe/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/mime-types/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/oauth-sign/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/performance-now/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/tough-cookie/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/tough-cookie/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/tunnel-agent/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/request/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/asn1/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/asn1/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/bcrypt-pbkdf/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/bcrypt-pbkdf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/dashdash/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/dashdash/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/ecc-jsbn/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/ecc-jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/getpass/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/getpass/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/jsbn/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/sshpk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tough-cookie/node_modules/psl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tough-cookie/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tough-cookie/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tunnel-agent/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tweetnacl/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/verror/node_modules/assert-plus/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/verror/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/verror/node_modules/extsprintf/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/verror/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1867" />
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="878" />
+    <option name="width" value="1867" />
+    <option name="height" value="1178" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -148,16 +793,6 @@
             <path>
               <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
@@ -185,31 +820,6 @@
             <path>
               <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-              <item name="mp-weixin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-              <item name="mp-weixin" type="462c0819:PsiDirectoryNode" />
-              <item name="custom-message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
-              <item name="platforms" type="462c0819:PsiDirectoryNode" />
-              <item name="mp-weixin" type="462c0819:PsiDirectoryNode" />
-              <item name="template-message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -230,13 +840,15 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/../hamster-app/pages/account" />
-      <recent name="$PROJECT_DIR$/../hamster-app/pages/user" />
-      <recent name="$PROJECT_DIR$/static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/bill" />
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/pages/account" />
+      <recent name="$PROJECT_DIR$/pages/user" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -261,31 +873,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1534643031299</updated>
-      <workItem from="1534643032821" duration="18736000" />
+      <workItem from="1534643032821" duration="19336000" />
+      <workItem from="1534837609414" duration="7814000" />
+      <workItem from="1535103847817" duration="8031000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18736000" />
+    <option name="totallyTimeSpent" value="35181000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="22" width="1400" height="878" extended-state="6" />
+    <frame x="-1867" y="22" width="1867" height="1178" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22697607" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12946913" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290653" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" weight="0.3290653" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.23774283" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -298,217 +912,197 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../hamster-app/common/icon.css">
+    <entry file="file://$PROJECT_DIR$/common/icon.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/pages/template/template.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="77" column="21" lean-forward="true" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/common/uni.css">
+    <entry file="file://$PROJECT_DIR$/pages/template/template.vue" />
+    <entry file="file://$PROJECT_DIR$/common/uni.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/componentHL.png">
+    <entry file="file://$PROJECT_DIR$/static/componentHL.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/pages/component/icon/icon.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="5" column="118" selection-start-line="5" selection-start-column="106" selection-end-line="5" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/pages/component/component.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/pages/component/view/view.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="46" column="43" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="43" />
-          <folding>
-            <element signature="n#style#0;n#view#0;n#view#1;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#2;n#view#3;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#4;n#view#3;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#1;n#view#4;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#image#0;n#view#0;n#view#1;n#view#4;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#1;n#view#1;n#view#4;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#1;n#view#1;n#view#4;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#1;n#view#1;n#view#1;n#view#4;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#1;n#view#1;n#view#1;n#view#1;n#view#4;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/pages/bill/bill.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
-          <folding>
-            <element signature="n#style#0;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#1;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#1;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/components/page-head.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/components/product.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/pages/component/rich-text/rich-text.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/components/number-box.vue">
+    <entry file="file://$PROJECT_DIR$/pages/component/icon/icon.vue" />
+    <entry file="file://$PROJECT_DIR$/pages/component/component.vue" />
+    <entry file="file://$PROJECT_DIR$/pages/component/view/view.vue" />
+    <entry file="file://$PROJECT_DIR$/components/page-head.vue" />
+    <entry file="file://$PROJECT_DIR$/components/product.vue" />
+    <entry file="file://$PROJECT_DIR$/pages/component/rich-text/rich-text.vue" />
+    <entry file="file://$PROJECT_DIR$/components/number-box.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/platforms/app-plus/feedback/feedback.vue">
+    <entry file="file://$PROJECT_DIR$/platforms/app-plus/feedback/feedback.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/platforms/app-plus/orientation/orientation.vue">
+    <entry file="file://$PROJECT_DIR$/platforms/app-plus/orientation/orientation.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/platforms/app-plus/speech/speech.vue">
+    <entry file="file://$PROJECT_DIR$/platforms/app-plus/speech/speech.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/platforms/app-plus/shake/shake.vue">
+    <entry file="file://$PROJECT_DIR$/platforms/app-plus/shake/shake.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/platforms/app-plus/push/push.vue">
+    <entry file="file://$PROJECT_DIR$/platforms/app-plus/push/push.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/platforms/app-plus/proximity/proximity.vue">
+    <entry file="file://$PROJECT_DIR$/platforms/app-plus/proximity/proximity.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/platforms/mp-weixin/custom-message/custom-message.vue">
+    <entry file="file://$PROJECT_DIR$/platforms/mp-weixin/custom-message/custom-message.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/api.png">
+    <entry file="file://$PROJECT_DIR$/static/api.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/apiHL.png">
+    <entry file="file://$PROJECT_DIR$/static/apiHL.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/c1.png">
+    <entry file="file://$PROJECT_DIR$/static/c1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/c2.png">
+    <entry file="file://$PROJECT_DIR$/static/c2.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/c3.png">
+    <entry file="file://$PROJECT_DIR$/static/c3.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/c9.png">
+    <entry file="file://$PROJECT_DIR$/static/c9.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/compass.png">
+    <entry file="file://$PROJECT_DIR$/static/compass.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/component.png">
+    <entry file="file://$PROJECT_DIR$/static/component.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/location.png">
+    <entry file="file://$PROJECT_DIR$/static/location.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/hm.png">
+    <entry file="file://$PROJECT_DIR$/static/pause.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/pause.png">
+    <entry file="file://$PROJECT_DIR$/static/play.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/play.png">
+    <entry file="file://$PROJECT_DIR$/static/trash.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/trash.png">
+    <entry file="file://$PROJECT_DIR$/static/uni@2x.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/uni@2x.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/store/index.js">
+    <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-196">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="287" column="23" selection-start-line="287" selection-start-column="23" selection-end-line="287" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/node_modules/_less@3.8.1@less/test/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/pages/account/bill.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/pages/user/user.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/unpackage/dist/dev/mp-weixin/static/js/pages/bill/bill.js">
+    <entry file="file://$PROJECT_DIR$/pages/account/bill.vue" />
+    <entry file="file://$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/pages/bill/bill.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="498" selection-start-column="498" selection-end-column="498" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/pages/account/account.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/static/menu.png">
+    <entry file="file://$PROJECT_DIR$/static/menu.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../hamster-app/pages.json">
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/user/user.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/_less@3.8.1@less/test/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+        <state relative-caret-position="659">
+          <caret line="62" column="36" selection-start-line="62" selection-start-column="36" selection-end-line="62" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/hm.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/account/account.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/medicine-0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/bill/bill.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="212" column="38" selection-start-line="212" selection-start-column="38" selection-end-line="212" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/bill/add.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/add-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/add.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/buy-0.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/bill/calendar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-500">
+          <caret line="92" column="40" selection-start-line="92" selection-start-column="40" selection-end-line="92" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/add-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="53" column="11" lean-forward="true" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
         </state>
       </provider>
     </entry>
