@@ -298,7 +298,12 @@
 
     }
     .text-inline {
-        display: inline;
+        display: inline-block;
         padding: 20px;
+    }
+    .hm-button {
+        background-color: #1296db;
+        color: #fff;
+        display: inline-block;
     }
 </style>

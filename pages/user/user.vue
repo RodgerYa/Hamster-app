@@ -1,132 +1,106 @@
 <template>
     <view class="index">
-        <view class="index-hd">
-            <image class="index-logo" src="../../static/hm.png"></image>
-        </view>
-
-        <view class="uni-flex uni-row" style="justify-content: center;">
-
-            <view class="uni-flex uni-column" style="justify-content: center;margin-right: 20px">
-                <view class="text bill-total-content">
-                    {{income}}
-                </view>
-                <view class="text bill-total-head">
-                    {{month}}月收入
-                </view>
+        <view class="info-head uni-flex" style="justify-content: center;padding: 20px 0">
+            <view class="user-image">
+                <image src="../../static/pika.png" style="width: 150px;height: 150px;"></image>
             </view>
-            <view class="uni-flex uni-column" style="justify-content: center; margin-left: 20px">
-                <view class="text bill-total-content">
-                    {{cost}}
+            <view class="user-message uni-row">
+                <view @click="login" style="font-size: 30px;margin-top: 25px;">{{!getHasLogin ? '暂未登录,点击登录' :
+                    info.userName}}
                 </view>
-                <view class="text bill-total-head">
-                    {{month}}月支出
+                <view style="font-size: 25px; color: #888888;padding: 10px;">{{!getHasLogin ? '暂无描述' :
+                    info.description}}
                 </view>
             </view>
         </view>
 
-        <view class="bill-item-contanair">
-            <view class="uni-flex uni-row"
-                  style="justify-content: center;box-sizing: border-box; border-radius: 10px; border-bottom: wheat solid 2px"
-                  v-for="(item, index) in billItems" :key="index" @click="jumpToDetail(item.id)">
-                <!--<view class="uni-icon"></view>-->
-                <view class="text-inline">{{item.accountName}}</view>
-                <view class="text-inline" style="text-align: right; margin: 8px">{{item.income ? '+'
-                    + item.amount : '-' + item.amount}}
+        <view class="uni-card" v-for="(list,index) in lists" :key="index">
+            <view class="uni-list">
+                <view class="uni-list-cell uni-collapse">
+                    <view class="uni-list-cell-navigate uni-navigate-bottom" hover-class="uni-list-cell-hover"
+                          :class="list.open ? 'uni-active' : ''"
+                          @click="trigerCollapse(index)">
+                        {{list.name}}
+                    </view>
+                    <view class="uni-list uni-collapse" :class="list.open ? 'uni-active' : ''">
+                        <view class="uni-list-cell" hover-class="uni-list-cell-hover" v-for="(item,key) in list.pages"
+                              :key="key" :url="item.url"
+                              @click="goDetailPage(item.url)">
+                            <view>
+                                <image :src="'../../static/' + item.imagePath"
+                                       style="width:30px;height:30px;margin:-8px;"></image>
+                            </view>
+                            <view class="uni-list-cell-navigate uni-navigate-right"> {{item.name}}</view>
+                        </view>
+                    </view>
                 </view>
             </view>
+        </view>
+        <view v-if="getHasLogin">
+            <button ﻿@click="loginOut" class="mini-btn" type="primary" size="mini"
+                    style="background-color:#ea986c;color:#FFFFFF;width:50%;margin-left:25%;">退出登录
+            </button>
         </view>
     </view>
 </template>
 <script>
+
+    import {mapActions, mapGetters} from 'vuex'
+    import store from 'store/index'
+
     export default {
         data() {
             return {
-                month: 1,
-                income: 0,
-                cost: 0,
-                billItems: [{
-                    id: 1,
-                    userName: '我',
-                    accountType: '支付宝',
-                    accountName: '支付宝_',
-                    amount: 10.00,
-                    income: false,
-                    time: '2018-08-17'
-                }, {
-                    id: 2,
-                    userName: '我',
-                    accountType: '微信',
-                    accountName: '微信支付',
-                    amount: 12.00,
-                    income: false,
-                    time: '2018-08-17'
-                }, {
-                    id: 3,
-                    userName: '我',
-                    accountType: '银行卡',
-                    accountName: '中国银行',
-                    amount: 10000.00,
-                    income: true,
-                    time: '2018-08-17'
-                }],
-                nodes: [{
-                    name: 'div',
-                    attrs: {
-                        class: 'div_class',
-                        style: 'line-height: 60px; color: black;text-align:left;margin: 10px 30px;'
-                    },
-                    children: [{
-                        type: 'text',
-                        text: 'first-bill-item'
-                    }]
-                }],
+                info: {
+                    userName: null,
+                    description: null
+                },
                 lists: [{
-                    id: 'view',
-                    name: '视图容器',
-                    open: false,
-                    pages: ['view', 'scroll-view', 'swiper']
+                    id: 'account',
+                    name: '记账小工具',
+                    open: true,
+                    pages: [{
+                        name: '心愿存钱',
+                        url: '',
+                        imagePath: 'wish.png'
+                    }, {
+                        name: '记账提醒',
+                        url: '',
+                        imagePath: 'notify.png'
+                    }, {
+                        name: '周期记账',
+                        url: '',
+                        imagePath: 'repeat.png'
+                    }]
                 }, {
-                    id: 'content',
-                    name: '基础内容',
-                    open: false,
-                    pages: ['text', 'rich-text', 'icon', 'progress']
-                }, {
-                    id: 'form',
-                    name: '表单组件',
-                    open: false,
-                    pages: ['button', 'checkbox', 'form', 'input', 'label', 'picker', 'radio', 'slider',
-                        'switch', 'textarea'
-                    ]
-                }, {
-                    id: 'nav',
-                    name: '导航',
-                    open: false,
-                    pages: ['navigator']
-                }, {
-                    id: 'media',
-                    name: '媒体组件',
-                    open: false,
-                    pages: ['image', 'audio', 'video']
-                }, {
-                    id: 'map',
-                    name: '地图',
-                    open: false,
-                    pages: ['map']
-                }, {
-                    id: 'web-view',
-                    name: '网页',
-                    open: false,
-                    pages: ['web-view']
-                }]
-            }
-        },
-        onShareAppMessage() {
-            return {
-                title: '欢迎体验uni-app',
-                path: '/pages/component/component'
+                    id: 'app',
+                    name: '其他',
+                    open: true,
+                    pages: [{
+                        name: '主题换肤',
+                        url: '',
+                        imagePath: 'color.png'
+                    }, {
+                        name: '帮助与反馈',
+                        url: '',
+                        imagePath: 'message.png'
+                    }, {
+                        name: '一元慈善',
+                        url: '',
+                        imagePath: 'love.png'
+                    }]
+                },
+                ]
             }
         },
         methods: {
+            ...mapActions([
+                'loginOutAction'
+            ]),
+            ...mapGetters([
+                'getHasLogin',
+                'getUserId'
+            ]),
             trigerCollapse(e) {
                 for (let i = 0, len = this.lists.length; i < len; ++i) {
                     if (e === i) {
@@ -136,14 +110,39 @@
                     }
                 }
             },
-            goDetailPage(e) {
-                uni.navigateTo({
-                    url: '/pages/component/' + e + '/' + e
+
+            loginOut() {
+                uni.showModal({
+                    content: "退出后无法继续使用记账，是否退出登录？",
+                    confirmText: "确定",
+                    cancelText: "取消",
+                    success: function (res) {
+                        if (res.confirm) {
+                            this.loginOutAction();
+                        }
+                    }
                 })
             },
-            jumpToDetail(id) {
-                uni.navigateTo({
-                    url: '/bill/bill/' + id
+            login() {
+                uni.reLaunch({
+                    url: '../user/login'
+                })
+            }
+        },
+        mounted() {
+            let time = new Date().getTime();
+            if (this.getHasLogin()) {
+                uni.request({
+                    url: 'http://localhost:10002/api/user/' + this.getUserId(),
+                    method: 'GET',
+                    header: {'token': store.state.token},
+                    success:  (res) => {
+                        console.log('success get user info request, res:', res);
+                        let param = res.data.data;
+                        if (param) {
+                            this.info = param;
+                        }
+                    }
                 })
             }
         }
@@ -167,5 +166,9 @@
 
     .uni-list:before {
         height: 0;
+    }
+
+    .user-message {
+
     }
 </style>

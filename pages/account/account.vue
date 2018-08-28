@@ -1,31 +1,23 @@
 <template>
     <view class="index" style="background: #fff">
-        <!--<view class="index-hd">-->
-            <!---->
-            <!--&lt;!&ndash;<image class="index-logo" src="../../static/hm.png"></image>&ndash;&gt;-->
-        <!--</view>-->
+        <view class="uni-column" style="padding: 50px">
+            <view class="bill-total-content">{{netAsserts}}</view>
+            <view style="font-size: 25px; color: #888888;padding: 10px;">净资产</view>
+        </view>
+
         <view class="uni-flex uni-row">
             <view class="uni-flex uni-column" style="justify-content: center">
-                <view class="text bill-total-content" style="justify-content: center">
-                    {{asserts}}
-                </view>
-                <view class="text bill-total-head">
-                    资产
-                </view>
+                <view class="account-head-money" style="justify-content: center">{{asserts}}</view>
+                <view class="text bill-total-head">资产</view>
             </view>
             <view class="uni-flex uni-column" style="justify-content: center">
-                <view class="text bill-total-content">
-                    {{liability}}
-                </view>
-                <view class="text bill-total-head">
-                    负债
-                </view>
+                <view class="text account-head-money">{{liability}}</view>
+                <view class="text bill-total-head">负债</view>
             </view>
         </view>
         <view class="text">
             {{notification}}
         </view>
-
 
 
         <view class="bill-item-contanair">
@@ -44,7 +36,8 @@
     export default {
         data() {
             return {
-                asserts: 1,
+                netAsserts: 0,
+                asserts: 0,
                 liability: 0,
 
                 cost: 0,
@@ -161,22 +154,15 @@
     .index {
         padding-bottom: 1px;
     }
-
-    .uni-card {
-        box-shadow: none;
+    .account-head-money {
+        font-size: 30px;
     }
 
-    .uni-list:after {
-        height: 0;
-    }
-
-    .uni-list:before {
-        height: 0;
-    }
     .bill-amount {
         text-align: right;
         margin: 8px;
     }
+
     .bill-account-name {
         text-align: left;
     }

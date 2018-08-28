@@ -21,15 +21,24 @@
                 </view>
             </view>
         </view>
-        <view class="bill-item-container">
+        <view class="bill-item-container" v-if="hasLogin">
             <view class="uni-flex uni-row uni-list bill-item"
-                  v-for="(item, index) in billItems" :key="index" @click="jumpToDetail(item.id)">
+                  v-for="(item, index) in billItems" :key="index" @click="jumpToOtherPages('detail', item.id)">
                 <view class="text-inline">
                     <view class="text-inline-item bill-account-name">{{item.accountName}}</view>
                     <view class="text-inline-item bill-amount">{{item.income ? '+' + item.amount : '-' + item.amount}}
                     </view>
                 </view>
             </view>
+        </view>
+        <view v-if="!hasLogin">
+            <view style="margin: 30px 0">
+                <image src="../../static/write-1.png" style="width: 64px; height: 64px;"></image>
+            </view>
+            <view class="uni-text remind-login">每一笔账单，都是生活的点滴</view>
+            <button ﻿@click="jumpToOtherPages('login')" class="mini-btn" type="primary" size="mini"
+                    style="background-color:#2782D7;color:#FFFFFF;width:50%;margin-left:25%;">登录
+            </button>
         </view>
     </view>
 </template>
@@ -42,6 +51,7 @@
                 month: 1,
                 income: 0,
                 cost: 0,
+                hasLogin: false,
                 billItems: [{
                     id: 1,
                     userName: '我',
@@ -96,33 +106,53 @@
                     }
                 }
             },
-            jumpToDetail(id) {
-                uni.navigateTo({
-                    url: '/bill/bill/' + id
-                })
+            jumpToOtherPages(nameStr, param) {
+                let name = nameStr.trim();
+                switch (name) {
+                    case 'detail':
+                        uni.navigateTo({
+                            url: '/bill-detail/id=' + param
+                        });
+                        break;
+                    case 'login':
+                        uni.navigateTo({
+                            url: '../user/login'
+                        });
+                        break;
+                    default:
+                        break;
+                }
             }
         },
-        created() {
-            const requestTash = uni.request({
-                url: 'localhost:10002/api/bill/list',
-                header: 'token: ' + store.state.token,
-                success: function (res) {
-                    let param = res.data;
-
-                    // TODO @yanwenbo 数据格式化处理
-
-                    this.billItems = param;
-                    this.month = res.month;
-                    param.forEach(item => {
-                        if (item.isIncome) {
-                            this.billItems.income += item.amount;
+        updated() {
+            this.hasLogin = store.state.hasLogin;
+        },
+        mounted() {
+            this.hasLogin = store.state.hasLogin;
+            if (this.hasLogin) {
+                const requestTash = uni.request({
+                    url: 'http://localhost:10002/api/bill/list',
+                    header: {'token': store.state.token},
+                    success:  (res) => {
+                        console.log('success request, res:', res);
+                        let param = res.data.data;
+                        if (param && param.length > 0) {
+                            console.log('enter if', param);
+                            this.billItems = param;
+                            this.billItems.income = param.income;
+                            // FIXME @yanwenbo 这里后端的接口返回需要 额外字段
+                            this.billItems.cost = param.cost;
+                            this.month = res.data.month;
                         } else {
-                            this.billItems.cost += item.amount;
+                            console.log('billItem is []');
+                            this.billItems = [];
                         }
-                    });
-                }
-            });
+                        console.log("hasLogin:", this.hasLogin)
+                        // TODO @yanwenbo 数据格式化处理
 
+                    }
+                });
+            }
         }
     }
 </script>
@@ -179,5 +209,12 @@
         padding-top: 30px;
         border-radius: 10px;
         font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .remind-login {
+        font-size: 25px;
+        color: #afc0ca;
+        padding: 20px;
+        text-align: center;
     }
 </style>

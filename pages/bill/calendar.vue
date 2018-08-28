@@ -103,25 +103,25 @@
             }
         },
         created() {
-            const requestTash = uni.request({
-                url: 'localhost:10002/api/bill/list',
-                header: 'token: ' + store.state.token,
-                success: function (res) {
-                    let param = res.data;
-
-                    // TODO @yanwenbo 数据格式化处理
-
-                    this.billItems = param;
-                    this.month = res.month;
-                    param.forEach(item => {
-                        if (item.isIncome) {
-                            this.billItems.income += item.amount;
-                        } else {
-                            this.billItems.cost += item.amount;
-                        }
-                    });
-                }
-            });
+            // const requestTash = uni.request({
+            //     url: 'localhost:10002/api/bill/list',
+            //     header: 'token: ' + store.state.token,
+            //     success: function (res) {
+            //         let param = res.data;
+            //
+            //         // TODO @yanwenbo 数据格式化处理
+            //
+            //         this.billItems = param;
+            //         this.month = res.month;
+            //         param.forEach(item => {
+            //             if (item.isIncome) {
+            //                 this.billItems.income += item.amount;
+            //             } else {
+            //                 this.billItems.cost += item.amount;
+            //             }
+            //         });
+            //     }
+            // });
 
         }
     }

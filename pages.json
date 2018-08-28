@@ -25,6 +25,11 @@
 			"style": {
 				"navigationBarTitleText": "我的"
 			}
+		}, {
+			"path": "pages/user/login",
+			"style": {
+				"navigationBarTitleText": "登陆"
+			}
 		}],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
@@ -48,9 +53,9 @@
 			"selectedIconPath": "static/account-1.png",
 			"text": "账户"
 		},{
-			"pagePath": "pages/bill/bill",
-			"iconPath": "static/add-1.png",
-			"selectedIconPath": "static/add-1.png"
+			"pagePath": "pages/bill/add",
+			"iconPath": "static/add_.png",
+			"selectedIconPath": "static/add_.png"
 		},{
 			"pagePath": "pages/bill/calendar",
 			"iconPath": "static/calendar-0.png",
