@@ -35,5 +35,9 @@ export default {
                 })
             }
         })
+    },
+
+    connectWs: function ({commit}) {
+        commit('connectWs');
     }
 };

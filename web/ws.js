@@ -1,18 +1,7 @@
-import localStorage from '../common/localStorage'
+import localStorage from "../common/localStorage";
 
 export default {
-    login (state, param) {
-        state.hasLogin = true;
-        state.token = param.token;
-        state.loginName = param.loginName;
-        state.userId = param.userId;
-        state.time = new Date().getTime();
-    },
-    loginOut (state) {
-        state.hasLogin = false;
-        state.token = null;
-    },
-    connectWs: function () {
+    connectWs() {
         if (localStorage.getHasLogin()) {
             uni.connectSocket({
                 url: 'ws://localhost:10002/notify',
@@ -33,6 +22,8 @@ export default {
                 console.log('WebSocket 已关闭！');
             });
         }
-
+    },
+    closeWs() {
+        uni.closeSocket();
     }
-};
+}

@@ -2,32 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdaf324b-6025-4945-9dff-145a50d55518" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/user/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/add_.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/color.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/love.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/message.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/money-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/money-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/notify.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/pika.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/repeat.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/wish.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/mutations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/state.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/icon-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/localStorage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/account/add.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/ALIPAY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/BANKCARD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/CREDITCARD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/JDBAITIAO.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/MYHUABEI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/OHTER.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/VCHATPAY.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/ws.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/uni.css" beforeDir="false" afterPath="$PROJECT_DIR$/common/uni.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/_assert-plus@1.0.0@assert-plus/assert.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/_assert-plus@1.0.0@assert-plus/assert.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/account/account.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/account/account.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/bill/add.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bill/add.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/bill/bill.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bill/bill.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/bill/calendar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/bill/calendar.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/user/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/user/user.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/user/user.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/account-0.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/account-0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/account-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/account-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/add-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/add-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/add-2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/static/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/add.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/add_.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/actions.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/mutations.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/mutations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/.temp/app.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/.temp/app.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/.temp/app.wxss" beforeDir="false" />
@@ -563,7 +563,7 @@
       <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/.temp/static/css/platforms/app-plus/push/push.wxss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/.temp/static/css/platforms/app-plus/shake/shake.wxss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/.temp/static/css/platforms/app-plus/speech/speech.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/.temp/static/css/vendor.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/store/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/.temp/static/css/vendor.wxss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/.temp/static/js/app.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/.temp/static/js/manifest.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/build/app-plus/.temp/static/js/pages/API/API.js" beforeDir="false" />
@@ -1430,7 +1430,7 @@
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/css/pages/user/user.wxss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/css/platforms/mp-weixin/custom-message/custom-message.wxss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/css/platforms/mp-weixin/template-message/template-message.wxss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/css/vendor.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/store/getters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/css/vendor.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/common/accountType.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/food-0.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/food-1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/hm.png" beforeDir="false" />
@@ -1564,28 +1564,32 @@
       <file leaf-file-name="login.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/user/login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+            <state relative-caret-position="259">
+              <caret line="233" column="28" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="28" />
               <folding>
                 <element signature="n#style#0;n#view#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#view#1;n#form#0;n#view#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#1;n#view#1;n#form#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#1534#1569#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bill.vue" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages/bill/bill.vue">
+      <file leaf-file-name="icon.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/icon.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-              <folding>
-                <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#image#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="233">
+              <caret line="334" column="1" selection-start-line="334" selection-start-column="1" selection-end-line="334" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="272" column="33" selection-start-line="272" selection-start-column="27" selection-end-line="272" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -1593,14 +1597,15 @@
       <file leaf-file-name="user.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/user/user.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="75" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="75" />
+            <state relative-caret-position="408">
+              <caret line="41" column="21" selection-start-line="39" selection-start-column="12" selection-end-line="41" selection-end-column="21" />
               <folding>
                 <element signature="n#style#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#image#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#view#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#view#1;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#image#0;n#view#0;n#view#0;n#view#1;n#view#0;n#view#0;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#2255#2307#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1609,8 +1614,25 @@
       <file leaf-file-name="pages.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="734">
-              <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+            <state relative-caret-position="225">
+              <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bill.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/bill/bill.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="524">
+              <caret line="98" column="15" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
+              <folding>
+                <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#image#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -1618,38 +1640,70 @@
       <file leaf-file-name="account.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/account/account.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
+            <state relative-caret-position="1440">
+              <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#view#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#image#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#view#0;n#view#0;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#view#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#1;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#view#1;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#image#0;n#view#0;n#view#0;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#view#1;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#image#0;n#view#0;n#view#1;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#text#1;n#view#0;n#view#0;n#view#1;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#image#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/App.vue">
+      <file leaf-file-name="add.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/account/add.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="211" column="33" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="33" />
+            <state relative-caret-position="392">
+              <caret line="224" column="28" selection-start-line="224" selection-start-column="28" selection-end-line="224" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#radio-group#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#1;n#view#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#1;n#view#0;n#view#3;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#1;n#view#0;n#view#8;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#picker#0;n#view#1;n#view#0;n#view#6;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#1;n#view#0;n#view#9;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#view#0;n#picker#0;n#view#1;n#view#0;n#view#7;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accountType.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/accountType.js">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>page-body</find>
-      <find>scroll</find>
-      <find>uni-flex</find>
-      <find>switchActive</find>
-      <find>page-section-title</find>
       <find>rich-text</find>
       <find>div_class</find>
       <find>tap</find>
@@ -1670,6 +1724,16 @@
       <find>localhost:10002/api/bill/list</find>
       <find>onShareAppMessage</find>
       <find>hasLogin</find>
+      <find>haslogin</find>
+      <find>loginAction</find>
+      <find>console.log</find>
+      <find>cost</find>
+      <find>getHasLogin</find>
+      <find>showPassword</find>
+      <find>jumpToOtherPages</find>
+      <find>repaymentDate</find>
+      <find>paymentDate</find>
+      <find>save</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1685,18 +1749,26 @@
         <option value="$PROJECT_DIR$/node_modules/_less@3.8.1@less/test/index.js" />
         <option value="$PROJECT_DIR$/pages/bill/calendar.vue" />
         <option value="$PROJECT_DIR$/pages/bill/add.vue" />
-        <option value="$PROJECT_DIR$/store/actions.js" />
-        <option value="$PROJECT_DIR$/App.vue" />
         <option value="$PROJECT_DIR$/store/index.js" />
         <option value="$PROJECT_DIR$/store/state.js" />
-        <option value="$PROJECT_DIR$/store/mutations.js" />
         <option value="$PROJECT_DIR$/store/getters.js" />
-        <option value="$PROJECT_DIR$/pages/user/login.vue" />
+        <option value="$PROJECT_DIR$/store/actions.js" />
+        <option value="$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json" />
+        <option value="$PROJECT_DIR$/common/uni.css" />
+        <option value="$PROJECT_DIR$/common/icon-map.js" />
+        <option value="$PROJECT_DIR$/store/mutations.js" />
+        <option value="$PROJECT_DIR$/common/localStorage.js" />
+        <option value="$PROJECT_DIR$/App.vue" />
+        <option value="$PROJECT_DIR$/pages/bill/bill.vue" />
+        <option value="$PROJECT_DIR$/web/ws.js" />
         <option value="$PROJECT_DIR$/pages/user/user.vue" />
+        <option value="$PROJECT_DIR$/pages/user/login.vue" />
         <option value="$PROJECT_DIR$/pages.json" />
         <option value="$PROJECT_DIR$/pages.json" />
         <option value="$PROJECT_DIR$/pages/account/account.vue" />
-        <option value="$PROJECT_DIR$/pages/bill/bill.vue" />
+        <option value="$PROJECT_DIR$/common/util.js" />
+        <option value="$PROJECT_DIR$/common/accountType.js" />
+        <option value="$PROJECT_DIR$/pages/account/add.vue" />
       </list>
     </option>
   </component>
@@ -2257,23 +2329,30 @@
       <path value="$PROJECT_DIR$/node_modules/verror/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
     <option name="width" value="1440" />
     <option name="height" value="878" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
@@ -2306,11 +2385,6 @@
             <path>
               <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
               <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
               <item name="unpackage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -2334,13 +2408,61 @@
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="app-plus" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
+              <item name="unpackage" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="app-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
+              <item name="unpackage" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="app-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
+              <item name="unpackage" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="app-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
+              <item name="unpackage" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="app-plus" type="462c0819:PsiDirectoryNode" />
+              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="bill" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hamster-app" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hamster-app" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="mut&#9;FILE&#9;file:///Users/yanwenbo/Desktop/workspace/hamster-app/store/mutations.js&#10;action&#9;FILE&#9;file:///Users/yanwenbo/Desktop/workspace/hamster-app/store/actions.js&#10;user&#9;FILE&#9;file:///Users/yanwenbo/Desktop/workspace/hamster-app/pages/user/user.vue&#10;getToken&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -2349,9 +2471,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/pages/account" />
       <recent name="$PROJECT_DIR$/pages/user" />
       <recent name="$PROJECT_DIR$/pages/bill" />
-      <recent name="$PROJECT_DIR$/pages/account" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pages/user" />
@@ -2388,17 +2510,21 @@
       <workItem from="1535359058545" duration="34000" />
       <workItem from="1535365582061" duration="20960000" />
       <workItem from="1535428195261" duration="2078000" />
-      <workItem from="1535443965195" duration="9255000" />
+      <workItem from="1535443965195" duration="14311000" />
+      <workItem from="1535510288443" duration="273000" />
+      <workItem from="1535527654691" duration="13444000" />
+      <workItem from="1535677680677" duration="18306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68792000" />
+    <option name="totallyTimeSpent" value="105871000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="878" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17406625" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27625087" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -2406,7 +2532,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2368758" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293247" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -2424,35 +2550,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/platforms/app-plus/orientation/orientation.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/app-plus/speech/speech.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/app-plus/shake/shake.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/app-plus/push/push.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/app-plus/proximity/proximity.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/platforms/mp-weixin/custom-message/custom-message.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/api.png" />
-    <entry file="file://$PROJECT_DIR$/static/apiHL.png" />
-    <entry file="file://$PROJECT_DIR$/static/c1.png" />
-    <entry file="file://$PROJECT_DIR$/static/c2.png" />
-    <entry file="file://$PROJECT_DIR$/static/c3.png" />
-    <entry file="file://$PROJECT_DIR$/static/c9.png" />
-    <entry file="file://$PROJECT_DIR$/static/compass.png" />
-    <entry file="file://$PROJECT_DIR$/static/component.png" />
-    <entry file="file://$PROJECT_DIR$/static/location.png" />
-    <entry file="file://$PROJECT_DIR$/static/pause.png" />
-    <entry file="file://$PROJECT_DIR$/static/play.png" />
     <entry file="file://$PROJECT_DIR$/static/trash.png" />
     <entry file="file://$PROJECT_DIR$/static/uni@2x.png" />
     <entry file="file://$PROJECT_DIR$/main.js">
@@ -2482,9 +2579,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/medicine-0.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/add.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/buy-0.png">
@@ -2517,59 +2611,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/unpackage/dist/build/app-plus/first-app/app-service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="19349" column="9" selection-start-line="19349" selection-start-column="9" selection-end-line="19349" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/actions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/mutations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/unpackage/dist/build/app-plus/first-app/app-service.js" />
     <entry file="file://$PROJECT_DIR$/store/state.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/getters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/add_.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/add-1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/add-2.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/static/write-1.png">
       <provider selected="true" editor-type-id="images" />
@@ -2583,70 +2631,243 @@
     <entry file="file://$PROJECT_DIR$/static/chongzhi-1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unpackage/dist/build/app-plus/hamster-app/app-service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="9267" column="4" selection-start-line="9267" selection-start-column="4" selection-end-line="9267" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unpackage/dist/build/app-plus/hamster-app/pages/bill/bill.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="106" selection-start-line="4" selection-start-column="106" selection-end-line="4" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/uni.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="183" column="21" selection-start-line="183" selection-start-column="21" selection-end-line="183" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/icon-map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/MYHUABEI.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/VCHATPAY.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/CREDITCARD.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/getters.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="12997" column="4" selection-start-line="12997" selection-start-column="4" selection-end-line="12997" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/add.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/add-2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/add_.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/add-1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/actions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/localStorage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/mutations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/ws.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/icon.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="334" column="1" selection-start-line="334" selection-start-column="1" selection-end-line="334" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/bill/bill.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="98" column="15" selection-start-line="98" selection-start-column="15" selection-end-line="98" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#image#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unpackage/dist/dev/mp-weixin/static/js/pages/component/picker/picker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2266" selection-start-column="2266" selection-end-column="2266" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="734">
-          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
+        <state relative-caret-position="225">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/account/account.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" column="27" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#image#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#1;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#image#0;n#view#0;n#view#0;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#1;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#image#0;n#view#0;n#view#1;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#text#1;n#view#0;n#view#0;n#view#1;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#image#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/user/user.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="75" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="75" />
+        <state relative-caret-position="408">
+          <caret line="41" column="21" selection-start-line="39" selection-start-column="12" selection-end-line="41" selection-end-column="21" />
           <folding>
             <element signature="n#style#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#image#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#view#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#view#1;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#image#0;n#view#0;n#view#0;n#view#1;n#view#0;n#view#0;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/account/account.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="73" selection-start-line="27" selection-start-column="73" selection-end-line="27" selection-end-column="73" />
-          <folding>
-            <element signature="n#style#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#0;n#view#1;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/user/login.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-          <folding>
-            <element signature="n#style#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#view#1;n#form#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#view#1;n#form#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#2255#2307#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="211" column="33" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="33" />
+        <state relative-caret-position="364">
+          <caret line="272" column="33" selection-start-line="272" selection-start-column="27" selection-end-line="272" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/bill/bill.vue">
+    <entry file="file://$PROJECT_DIR$/common/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        <state relative-caret-position="564">
+          <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/accountType.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/user/login.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="233" column="28" selection-start-line="233" selection-start-column="20" selection-end-line="233" selection-end-column="28" />
           <folding>
-            <element signature="n#style#0;n#view#0;n#view#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#image#0;n#view#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#view#2;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#view#1;n#form#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#view#1;n#form#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#1534#1569#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/account/add.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="224" column="28" selection-start-line="224" selection-start-column="28" selection-end-line="224" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#radio-group#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#view#1;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#view#3;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#view#8;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#picker#0;n#view#1;n#view#0;n#view#6;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#1;n#view#0;n#view#9;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#view#0;n#picker#0;n#view#1;n#view#0;n#view#7;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#view#0;n#view#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

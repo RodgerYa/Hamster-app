@@ -10,8 +10,9 @@
                     <input @input="keyInputUserName" type="text" placeholder="请输入用户姓名" max-length="15"
                            class="text-inline uni-input login-input">
                 </view>
-                <input @input="keyInputPassword" password type="text" placeholder="请输入密码"
+                <input @input="keyInputPassword" :password=showPassword type="text" placeholder="请输入密码"
                        class="text-inline ﻿uni-input login-input"/>
+                ﻿<view class="uni-icon uni-icon-eye" :class="[!showPassword ? 'uni-active' : '']" @click="changePassword"></view>
                 <view class="line"></view>
             </view>
             <view class="btn-area btn-group">
@@ -26,8 +27,9 @@
     </view>
 </template>
 <script>
-    import store from '../../store/index';
-    import {mapActions} from 'vuex';
+    import ws from '../../web/ws';
+    import {mapActions, mapGetters} from 'vuex';
+    import localStorage from '../../common/localStorage'
 
     const duration = 2000;
 
@@ -41,24 +43,22 @@
                 password: null,
                 userName: null,
                 isRegister: false,
-
-                nodes: [{
-                    name: 'div',
-                    attrs: {
-                        class: 'div_class',
-                        style: 'line-height: 60px; color: black;text-align:left;margin: 10px 30px;'
-                    },
-                    children: [{
-                        type: 'text',
-                        text: 'first-bill-item'
-                    }]
-                }]
+                showPassword: true
+                // nodes: [{
+                //     name: 'div',
+                //     attrs: {
+                //         class: 'div_class',
+                //         style: 'line-height: 60px; color: black;text-align:left;margin: 10px 30px;'
+                //     },
+                //     children: [{
+                //         type: 'text',
+                //         text: 'first-bill-item'
+                //     }]
+                // }]
             }
         },
         methods: {
-            ...mapActions([
-                'loginAction'
-            ]),
+
             keyInputName(e) {
                 this.loginName = e.detail.value;
             },
@@ -83,14 +83,11 @@
                 })
             },
             login() {
-                console.log('enter login');
                 if (this.isRegister) {
                     this.isRegister = false;
-                    console.log('isRegister');
                     return;
                 }
                 if (!this.checkParam('login')) {
-                    console.log('checkout');
                     return;
                 }
                 let param = {};
@@ -104,22 +101,24 @@
                     data: param,
                     method: 'POST',
                     success: (res) => {
-                        console.log("login success", res);
                         let param = res.data.data;
 
-                        this.loginAction(param);
-                        console.log(store);
+                        localStorage.set('user', {hasLogin: true, token: param.token});
+
                         uni.showToast({
                             title: '登录成功',
                             icon: 'success',
                             mask: true,
                             duration: duration
                         });
+
+                        ws.connectWs();
                         setTimeout(this.jumpToBill, 2000);
+
                     },
                     fail: function fail(err) {
                         uni.showToast({
-                            title: '登录失败',
+                            title: err.message,
                             icon: 'error',
                             mask: true,
                             duration: duration
@@ -227,6 +226,9 @@
                     return false;
                 }
                 return true;
+            },
+            changePassword() {
+                this.showPassword = !this.showPassword;
             },
             jumpToBill() {
                 uni.reLaunch({

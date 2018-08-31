@@ -287,6 +287,7 @@
         box-sizing: border-box;
         border-top: 2px solid #D8D8D8;
         text-align: center;
+
     }
     .bill-total-content {
         padding: 20px 0;
@@ -305,5 +306,11 @@
         background-color: #1296db;
         color: #fff;
         display: inline-block;
+    }
+    .remind-login {
+        font-size: 25px;
+        color: #afc0ca;
+        padding: 20px;
+        text-align: center;
     }
 </style>

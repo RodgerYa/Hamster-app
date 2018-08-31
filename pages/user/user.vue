@@ -5,10 +5,10 @@
                 <image src="../../static/pika.png" style="width: 150px;height: 150px;"></image>
             </view>
             <view class="user-message uni-row">
-                <view @click="login" style="font-size: 30px;margin-top: 25px;">{{!getHasLogin ? '暂未登录,点击登录' :
+                <view @click="login" style="font-size: 30px;margin-top: 25px;">{{!hasLogin ? '暂未登录,点击登录' :
                     info.userName}}
                 </view>
-                <view style="font-size: 25px; color: #888888;padding: 10px;">{{!getHasLogin ? '暂无描述' :
+                <view style="font-size: 25px; color: #888888;padding: 10px;">{{!hasLogin ? '暂无描述' :
                     info.description}}
                 </view>
             </view>
@@ -36,7 +36,7 @@
                 </view>
             </view>
         </view>
-        <view v-if="getHasLogin">
+        <view v-if="hasLogin">
             <button ﻿@click="loginOut" class="mini-btn" type="primary" size="mini"
                     style="background-color:#ea986c;color:#FFFFFF;width:50%;margin-left:25%;">退出登录
             </button>
@@ -44,13 +44,13 @@
     </view>
 </template>
 <script>
-
-    import {mapActions, mapGetters} from 'vuex'
-    import store from 'store/index'
+    import localStorage from '../../common/localStorage'
+    import ws from '../../web/ws'
 
     export default {
         data() {
             return {
+                hasLogin: false,
                 info: {
                     userName: null,
                     description: null
@@ -94,13 +94,6 @@
             }
         },
         methods: {
-            ...mapActions([
-                'loginOutAction'
-            ]),
-            ...mapGetters([
-                'getHasLogin',
-                'getUserId'
-            ]),
             trigerCollapse(e) {
                 for (let i = 0, len = this.lists.length; i < len; ++i) {
                     if (e === i) {
@@ -112,14 +105,27 @@
             },
 
             loginOut() {
-                uni.showModal({
-                    content: "退出后无法继续使用记账，是否退出登录？",
-                    confirmText: "确定",
-                    cancelText: "取消",
-                    success: function (res) {
-                        if (res.confirm) {
-                            this.loginOutAction();
+                if (this.hasLogin) {
+                    uni.showModal({
+                        content: "退出后无法继续使用记账，是否退出登录？",
+                        confirmText: "确定",
+                        cancelText: "取消",
+                        success: (res) => {
+                            if (res.confirm) {
+                                this.loginOutAction();
+                            }
                         }
+                    })
+                }
+            },
+            loginOutAction() {
+                uni.request({
+                    url: 'http://localhost:10002/api/user/loginout',
+                    method: 'GET',
+                    header: {'token': localStorage.getToken()},
+                    success: () => {
+                        console.log('i am login out.')
+                        ws.closeWs();
                     }
                 })
             },
@@ -130,7 +136,7 @@
             }
         },
         mounted() {
-            let time = new Date().getTime();
+            this.hasLogin = localStorage.getHasLogin();
             if (this.getHasLogin()) {
                 uni.request({
                     url: 'http://localhost:10002/api/user/' + this.getUserId(),

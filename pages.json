@@ -11,6 +11,11 @@
 				"navigationBarTitleText": "账户"
 			}
 		}, {
+			"path": "pages/account/add",
+			"style": {
+				"navigationBarTitleText": "新增账户"
+			}
+		}, {
 			"path": "pages/bill/add",
 			"style": {
 				"navigationBarTitleText": "记一笔"
@@ -54,8 +59,8 @@
 			"text": "账户"
 		},{
 			"pagePath": "pages/bill/add",
-			"iconPath": "static/add_.png",
-			"selectedIconPath": "static/add_.png"
+			"iconPath": "static/add-1.png",
+			"selectedIconPath": "static/add-1.png"
 		},{
 			"pagePath": "pages/bill/calendar",
 			"iconPath": "static/calendar-0.png",
