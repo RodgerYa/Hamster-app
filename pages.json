@@ -16,6 +16,16 @@
 				"navigationBarTitleText": "新增账户"
 			}
 		}, {
+			"path": "pages/account/edit",
+			"style": {
+				"navigationBarTitleText": "编辑账户"
+			}
+		}, {
+			"path": "pages/account/detail",
+			"style": {
+				"navigationBarTitleText": "查看账户"
+			}
+		}, {
 			"path": "pages/bill/add",
 			"style": {
 				"navigationBarTitleText": "记一笔"

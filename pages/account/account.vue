@@ -2,7 +2,8 @@
     <view class="index" style="background: #fff">
         <view class="index-hd uni-column uni-flex" style="justify-content: center;color: #FFFFFF">
             <view class="add-account">
-                <image src="../../static/add.png" @click="jumpToOtherPages('add')" style="width: 60px; height: 60px;"></image>
+                <image src="../../static/add.png" @click="jumpToOtherPages('add')"
+                       style="width: 60px; height: 60px;"></image>
             </view>
             <view class="uni-row uni-flex"
                   style="justify-content: center;border-bottom:#fff 1px solid;margin-right: 10px;height: 130px">
@@ -22,22 +23,20 @@
         </view>
 
         <view class="account-list" v-if="hasLogin">
-            <view class="uni-card" v-for="(item, index) in assetsAccounts" :key="index"
-                  @click="jumpToAssetsDetail(item.id)">
-                <view class="account-card-item uni-row">
+            <view class="uni-card" v-for="(item, index) in assetsAccounts" :key="index">
+                <view class="account-card-item uni-row" @click="jumpToOtherPages('detail', {id: item.id, type: 'assets'})">
                     <image class="uni-card-media-logo" style="display: inline-block"
-                           :src="'../../static/' + item.type + '.png'"></image>
+                           :src="'../../static/' + accountTypeMap.get(item.type.code) + '.png'"></image>
                     <view class="uni-card-media-body account-msg uni-row">
                         <text class="text account-name">{{item.name}}</text>
                         <text class="text account-amount">{{item.balance}}</text>
                     </view>
                 </view>
             </view>
-            <view class="uni-card" v-for="(item, index) in liabilityAccounts" :key="index"
-                  @click="jumpToLiabilityDetail(item.id)">
-                <view class="account-card-item uni-row uni-flex" style="justify-content: space-between">
+            <view class="uni-card" v-for="(item, index) in liabilityAccounts" :key="index">
+                <view class="account-card-item uni-row uni-flex" style="justify-content: space-between" @click="jumpToOtherPages('detail', {id: item.id, type: 'liability'})">
                     <image class="uni-card-media-logo" style="display: inline-block"
-                           :src="'../../static/' + item.type + '.png'"></image>
+                           :src="'../../static/' + liabilityIconTypeMap.get(item.type.code) + '.png'"></image>
                     <view class="uni-card-media-body account-msg uni-row">
                         <text class="text account-name">{{item.name}}</text>
                         <text class="text account-amount" style="color: #d81e06">{{item.amount}}</text>
@@ -72,38 +71,41 @@
                     id: 1,
                     accountName: '花呗',
                     amount: 3000,
-                    type: 'MYHUABEI'
+                    type: {code: 1, name: '花呗'}
                 }],
                 assetsAccounts: [{
                     id: 1,
                     accountName: '支付宝',
                     balance: 30000,
-                    logo: 'ALIPAY'
+                    type: {}
                 }, {
                     id: 2,
                     accountName: '微信',
                     balance: 1500,
-                    logo: 'VCHATPAY'
+                    type: {}
                 }]
             }
         },
         methods: {
             jumpToOtherPages(nameStr, param) {
                 let name = nameStr.trim();
+                let path = '';
                 switch (name) {
                     case 'add':
-                        uni.navigateTo({
-                            url: './add'
-                        });
+                        path = './add?id';
                         break;
                     case 'login':
-                        uni.navigateTo({
-                            url: '../user/login'
-                        });
+                        path = '../user/login';
+                        break;
+                    case 'detail':
+                        path = './detail?id=' + param.id + '&type=' + param.type;
                         break;
                     default:
                         break;
                 }
+                uni.navigateTo({
+                    url: path
+                });
             },
             goDetailPage(e) {
                 uni.navigateTo({
@@ -115,7 +117,7 @@
                     url: '/bill/bill/' + id
                 })
             },
-            jumpToAssetsDetail(id) {
+            jumpToAssetsDetail(id, type) {
                 uni.navigateTo({
                     url: '/bill/bill/' + id
                 })
@@ -182,7 +184,7 @@
         bottom: 10%;
     }
 
-    .add-account{
+    .add-account {
         position: absolute;
         top: 0;
         right: 0;

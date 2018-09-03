@@ -2,15 +2,6 @@
     <view class="index">
         ﻿
         <view class="page-section page-section-gap">
-            <radio-group class="uni-flex" name="radio" style="justify-content: space-between; padding: 35px 70px;"
-                         @change="radioChange">
-                <label>
-                    <radio value="assets"/>
-                    资产账户</label>
-                <label>
-                    <radio value="liability"/>
-                    负债账户</label>
-            </radio-group>
             ﻿
             <view class="uni-list">
                 <view class="uni-list-cell">
@@ -22,20 +13,6 @@
                     </view>
                 </view>
             </view>
-
-            <view class="uni-list" v-if="isAssets">
-                <view class="uni-list-cell">
-                    <view class="list-left">
-                        账户类型
-                    </view>
-                    <view class="list-right" style="width: 345px">
-                        <picker @change="bindPickerChange" :value="typeIndex" :range="assetsTypes">
-                            <view class="uni-input">{{assetsTypes[typeIndex]}}</view>
-                        </picker>
-                    </view>
-                </view>
-            </view>
-
             <view class="uni-list" v-if="isAssets">
                 <view class="uni-list-cell">
                     <view class="list-left">
@@ -46,7 +23,6 @@
                     </view>
                 </view>
             </view>
-
 
             <view class="uni-list" v-if="!isAssets">
                 <view class="uni-list-cell">
@@ -130,8 +106,8 @@
     export default {
         data() {
             return {
-                isAssets: true,
-                isLiability: false,
+                totalCost: 0,
+                totalIncome: 0,
                 assetsTypes: ['支付宝', '微信', '现金', '银行卡', '其他'],
                 liabilityTypes: ['信用卡', '花呗', '京东白条', '其他'],
                 fullDates: [],
@@ -178,50 +154,7 @@
                 return true;
                 // TODO 校验参数合法性
             },
-            saveAssetsAccount() {
-                let param = {};
-                param.type = this.type;
-                param.name = this.name;
-                param.balance = (parseFloat(this.balance) * 100).toFixed(0);
-                param.description = this.description;
-                uni.request({
-                    url: 'http://localhost:10002/api/account/create',
-                    method: 'POST',
-                    header: {token: localStorage.getToken()},
-                    data: param,
-                    success: (res) => {
-                        if (res.success) {
-                            console.log("新增资产账户成功");
-                            uni.relaunch({url: './account'});
-                        }
-                        // TODO @yanwenbo 弹窗提醒，弹窗比较多 优化反感： 1/使用message 2/封装弹窗组件
-                    }
-                });
-            },
-            saveLiabilityAccount() {
-                let param = {};
-                param.type = this.type;
-                param.name = this.name;
-                param.amount = (parseFloat(this.credit) * 100).toFixed(0);
-                param.lineOfCredit = (parseFloat(this.lineOfCredit) * 100).toFixed(0);
-                param.statementDate = this.statementDate;
-                param.repaymentDate = this.repaymentDate;
-                param.description = this.description;
-                uni.request({
-                    url: 'http://localhost:10002/api/account/liability/create',
-                    method: 'POST',
-                    header: {token: localStorage.getToken()},
-                    data: param,
-                    success: (res) => {
-                        if (res.data.success) {
-                            console.log("新增资产账户成功");
-                            this.jumpToAccount();
-                        }
-                        // TODO @yanwenbo 弹窗提醒，弹窗比较多 优化反感： 1/使用message 2/封装弹窗组件
-                    }
-                });
-            },
-            jumpToAccount(){
+            jumpToAccount() {
                 uni.reLaunch({url: './account'});
             },
             trigerCollapse(e) {
@@ -233,49 +166,73 @@
                     }
                 }
             },
-            goDetailPage(e) {
-                uni.navigateTo({
-                    url: '/pages/component/' + e + '/' + e
-                })
-            },
-            jumpToLiabilityDetail(id) {
-                uni.navigateTo({
-                    url: '/bill/bill/' + id
-                })
-            },
-            jumpToAssetsDetail(id) {
-                uni.navigateTo({
-                    url: '/bill/bill/' + id
-                })
-            },
             jumpToOtherPage(name, param) {
                 if (name === 'add') {
                     uni.navigateTo({
                         url: './add'
                     })
                 }
-            }
-        },
-        onLoad() {
-            this.fullDates = Array.from({length: 30}, (_, index) => index + 1);
-            uni.request({
-                url: 'http://localhost:10002/api/account/list',
-                method: 'GET',
-                header: {'token': localStorage.getToken()},
+            },
+            getAssetsDetail(id) {
+                uni.request({
+                    url: 'http://localhost:10002/api/account/' + id,
+                    method: 'GET',
+                    header: {'token': localStorage.getToken()},
+                    success: (res) => {
+                        let resp = res.data;
+                        if (resp && resp.success) {
+                            let param = resp.data;
+                            if (param) {
+                                this.name = param.name;
+                                this.balance = formatAmount(param.balance);
+                                this.amount = formatAmount(param.amount);
+                                this.totalCost = formatAmount(param.totalCost);
+                                this.totalIncome = formatAmount(param.totalIncome);
+                                this.description = param.description;
+                            }
+                        } else {
+                            console.log(resp.data.message);
+                        }
 
-                success: (res) => {
-                    if (res.data.success && res.data.data) {
-                        let param = res.data.data;
-                        console.log(param);
-                        this.assets = parseFloat(param.totalAssets).toFixed(2);
-                        this.liability = parseFloat(param.totalLiability).toFixed(2);
-                        this.netAssets = parseFloat(parseInt(param.totalAssets) - parseInt(param.totalLiability)).toFixed(2);
-
-                        this.liabilityAccounts = param.liabilityAccounts;
-                        this.assetsAccounts = param.assetsAccounts;
                     }
+                })
+            },
+            getLiabilityDetail(id) {
+                uni.request({
+                    url: 'http://localhost:10002/api/account/liability/' + id,
+                    method: 'GET',
+                    header: {'token': localStorage.getToken()},
+                    success: (res) => {
+                        let resp = res.data;
+                        if (resp && resp.success) {
+                            let param = resp.data;
+                            if (param) {
+                                this.name = param.name;
+                                this.lineOfCredit = formatAmount(param.lineOfCredit);
+                                this.amount = formatAmount(param.amount);
+                                this.totalCost = formatAmount(param.totalCost);
+                                this.statementDate = param.statementDate;
+                                this.repaymentDate = param.repaymentDate;
+                                this.description = param.description;
+                            } else {
+                                console.log(resp.data.message);
+                            }
+                        }
+
+                    }
+                })
+            },
+        },
+        onLoad(param) {
+            if (!param && param.id && param.type) {
+                this.isAssets = type === 'assets';
+                if (this.isAssets){
+                    this.getAssetsDetail();
+                } else {
+                    this.getLiabilityDetail();
                 }
-            })
+
+            }
         }
     }
 </script>

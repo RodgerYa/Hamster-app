@@ -66,8 +66,17 @@ var dateUtils = {
 	}
 };
 
+function formatAmount(amount) {
+	if (!amount) {
+		return parseFloat(amount).toFixed(0) / 100
+	} else {
+		return 0
+	}
+}
+
 module.exports = {
 	formatTime: formatTime,
 	formatLocation: formatLocation,
-	dateUtils: dateUtils
+	dateUtils: dateUtils,
+	formatAmount: formatAmount
 }
